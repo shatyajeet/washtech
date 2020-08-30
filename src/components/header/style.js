@@ -31,7 +31,7 @@ export const NavBar = styled.div`
 `
 
 export const NavBarItem = styled.div`
-  font-size: 24px;
+  font-size: 1.125rem;
   line-height: 1.5;
 `
 

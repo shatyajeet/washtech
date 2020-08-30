@@ -37,7 +37,7 @@ export const ContentLine = styled.div`
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: 2px;
-  line-height: 1.75rem;
+  line-height: 1.25;
   text-transform: uppercase;
 `
 
@@ -45,7 +45,7 @@ export const ContentHeading = styled.h1`
   color: #383E44;
   font-size: 3rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.25;
   margin: 0;
 `
 
