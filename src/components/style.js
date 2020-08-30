@@ -5,4 +5,8 @@ export const SizedBox = styled.div`
   width: ${_ => _.width ? `${_.width}px` : '100%'};
 `
 
+export const AppContent = styled.div`
+  margin-top: 80px;
+`
+
 export const MAX_CONTENT_WIDTH = 1366
