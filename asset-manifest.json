@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/washtech/static/css/main.0e05233f.chunk.css",
+    "main.js": "/washtech/static/js/main.7be42a6f.chunk.js",
+    "main.js.map": "/washtech/static/js/main.7be42a6f.chunk.js.map",
+    "runtime-main.js": "/washtech/static/js/runtime-main.14e88206.js",
+    "runtime-main.js.map": "/washtech/static/js/runtime-main.14e88206.js.map",
+    "static/js/2.4bcb6701.chunk.js": "/washtech/static/js/2.4bcb6701.chunk.js",
+    "static/js/2.4bcb6701.chunk.js.map": "/washtech/static/js/2.4bcb6701.chunk.js.map",
+    "index.html": "/washtech/index.html",
+    "precache-manifest.4bd5d1ae9ab1f353a1f0241c469d3162.js": "/washtech/precache-manifest.4bd5d1ae9ab1f353a1f0241c469d3162.js",
+    "service-worker.js": "/washtech/service-worker.js",
+    "static/css/main.0e05233f.chunk.css.map": "/washtech/static/css/main.0e05233f.chunk.css.map",
+    "static/js/2.4bcb6701.chunk.js.LICENSE.txt": "/washtech/static/js/2.4bcb6701.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/washtech/static/media/logo.ef1af8da.svg",
+    "static/media/phone.svg": "/washtech/static/media/phone.ce85c3f1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14e88206.js",
+    "static/js/2.4bcb6701.chunk.js",
+    "static/css/main.0e05233f.chunk.css",
+    "static/js/main.7be42a6f.chunk.js"
+  ]
+}
