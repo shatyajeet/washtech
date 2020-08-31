@@ -5,7 +5,7 @@ import Chip from '../chip'
 import { SizedBox } from '../style'
 import logo from '../../logo.svg'
 import whatsAppLogo from '../../images/whats-app/whats-app@2x.jpg'
-import phoneIcon from '../../images/phone.svg'
+import phoneIcon from '../../images/phone-24.svg'
 import Button from '../button'
 
 export default function Header () {
