@@ -62,7 +62,7 @@ export const QuoteContainer = styled.div`
   border-radius: 8px;
   bottom: ${_ => -_.height / 2}px;
   box-shadow: 0 0 8px 0 rgba(55, 70, 95, 0.12);
-  left: calc(50% - ${_ => _.width / 2}px);
+  left: ${_ => _.width ? `calc(50% - ${_.width / 2}px)` : 0};
   padding: 24px;
   position: absolute;
 `

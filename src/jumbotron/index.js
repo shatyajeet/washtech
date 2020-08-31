@@ -12,10 +12,12 @@ export default function Jumbotron () {
   const [width, setWidth] = useState(0)
 
   useEffect(() => {
-    const quoteBox = document.getElementById('quote-box')
-    const quoteBoxDimensions = quoteBox.getBoundingClientRect()
-    setHeight(quoteBoxDimensions.height)
-    setWidth(quoteBoxDimensions.width)
+    setTimeout(() => {
+      const quoteBox = document.getElementById('quote-box')
+      const quoteBoxDimensions = quoteBox.getBoundingClientRect()
+      setHeight(quoteBoxDimensions.height)
+      setWidth(quoteBoxDimensions.width)
+    })
   }, [])
 
 

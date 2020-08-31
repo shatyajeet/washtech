@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const CONTENT_WIDTH = 1366
 
 export const HeaderBar = styled.header`
+  background-color: #fff;
   box-shadow: 0 0 8px 0 rgba(55, 70, 95, 0.12);
   display: flex;
   justify-content: center;
