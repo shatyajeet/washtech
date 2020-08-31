@@ -1,26 +1,38 @@
 {
   "files": {
     "main.css": "/washtech/static/css/main.0e05233f.chunk.css",
-    "main.js": "/washtech/static/js/main.00bbb796.chunk.js",
-    "main.js.map": "/washtech/static/js/main.00bbb796.chunk.js.map",
+    "main.js": "/washtech/static/js/main.dd1516ff.chunk.js",
+    "main.js.map": "/washtech/static/js/main.dd1516ff.chunk.js.map",
     "runtime-main.js": "/washtech/static/js/runtime-main.14e88206.js",
     "runtime-main.js.map": "/washtech/static/js/runtime-main.14e88206.js.map",
-    "static/js/2.33ab135a.chunk.js": "/washtech/static/js/2.33ab135a.chunk.js",
-    "static/js/2.33ab135a.chunk.js.map": "/washtech/static/js/2.33ab135a.chunk.js.map",
+    "static/js/2.826c31f5.chunk.js": "/washtech/static/js/2.826c31f5.chunk.js",
+    "static/js/2.826c31f5.chunk.js.map": "/washtech/static/js/2.826c31f5.chunk.js.map",
     "index.html": "/washtech/index.html",
-    "precache-manifest.fbd3339893f8c8a6ea66f6fcb4e31405.js": "/washtech/precache-manifest.fbd3339893f8c8a6ea66f6fcb4e31405.js",
+    "precache-manifest.6b900da3182886f53d5298c62b7bdb0b.js": "/washtech/precache-manifest.6b900da3182886f53d5298c62b7bdb0b.js",
     "service-worker.js": "/washtech/service-worker.js",
     "static/css/main.0e05233f.chunk.css.map": "/washtech/static/css/main.0e05233f.chunk.css.map",
-    "static/js/2.33ab135a.chunk.js.LICENSE.txt": "/washtech/static/js/2.33ab135a.chunk.js.LICENSE.txt",
+    "static/js/2.826c31f5.chunk.js.LICENSE.txt": "/washtech/static/js/2.826c31f5.chunk.js.LICENSE.txt",
     "static/media/ae.svg": "/washtech/static/media/ae.091d0894.svg",
+    "static/media/digital-dashboard.svg": "/washtech/static/media/digital-dashboard.c405d0f7.svg",
+    "static/media/digital-dashboard_2.svg": "/washtech/static/media/digital-dashboard_2.1af7f1d8.svg",
     "static/media/image@3x.jpg": "/washtech/static/media/image@3x.d37f7662.jpg",
+    "static/media/iso.svg": "/washtech/static/media/iso.de2a7772.svg",
+    "static/media/iso_2.svg": "/washtech/static/media/iso_2.c0ee1812.svg",
     "static/media/logo.svg": "/washtech/static/media/logo.ef1af8da.svg",
-    "static/media/phone.svg": "/washtech/static/media/phone.ce85c3f1.svg"
+    "static/media/option-for-leasing.svg": "/washtech/static/media/option-for-leasing.9e7f8033.svg",
+    "static/media/option-for-leasing_2.svg": "/washtech/static/media/option-for-leasing_2.2b19f9fb.svg",
+    "static/media/personalised.svg": "/washtech/static/media/personalised.f9ffd79e.svg",
+    "static/media/personalised_2.svg": "/washtech/static/media/personalised_2.0d0112de.svg",
+    "static/media/phone-24.svg": "/washtech/static/media/phone-24.ce85c3f1.svg",
+    "static/media/pick-up-delivery.svg": "/washtech/static/media/pick-up-delivery.9dd70921.svg",
+    "static/media/pick-up-delivery_2.svg": "/washtech/static/media/pick-up-delivery_2.6c13cb42.svg",
+    "static/media/signature-fragrance.svg": "/washtech/static/media/signature-fragrance.666114d5.svg",
+    "static/media/signature-fragrance_2.svg": "/washtech/static/media/signature-fragrance_2.43875068.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.14e88206.js",
-    "static/js/2.33ab135a.chunk.js",
+    "static/js/2.826c31f5.chunk.js",
     "static/css/main.0e05233f.chunk.css",
-    "static/js/main.00bbb796.chunk.js"
+    "static/js/main.dd1516ff.chunk.js"
   ]
 }
