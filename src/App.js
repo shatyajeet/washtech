@@ -4,6 +4,7 @@ import Header from './components/header';
 import Jumbotron from './jumbotron';
 import { AppContent } from './components/style';
 import Benefits from './benefits';
+import Services from './services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AppContent>
         <Jumbotron />
         <Benefits />
+        <Services />
       </AppContent>
     </div>
   );

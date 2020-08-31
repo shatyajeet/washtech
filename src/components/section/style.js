@@ -19,6 +19,7 @@ export const HeadContent = styled.div`
 
 export const MainContent = styled.div`
   display: flex;
+  flex-direction: ${_ => _.reverse ? 'row-reverse' : 'row'};
 `
 
 export const ItemContent = styled.div`
@@ -29,6 +30,12 @@ export const ItemContent = styled.div`
 
 export const SelectedContent = styled.div`
   flex: 1;
+  padding-left: ${_ => _.reverse ? 0 : 48}px;
+  padding-right: ${_ => _.reverse ? 48 : 0}px;
+`
+
+export const SelectedContentImageContainer = styled.div`
+  text-align: center;
 `
 
 export const Item = styled.div`
@@ -52,7 +59,15 @@ export const Item = styled.div`
 export const ItemIcon = styled.img``
 
 export const ItemLabel = styled.div`
+  color: ${_ => _.selected ? '#383E44' : '#535C65'};
   font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+`
+
+export const SelectedItemHeading = styled.div`
+  color: #25292D;
+  font-size: 2.25rem;
   font-weight: 500;
   line-height: 1.5;
 `
