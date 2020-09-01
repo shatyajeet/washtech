@@ -12,16 +12,17 @@ export const AppContent = styled.div`
 export const MAX_CONTENT_WIDTH = 1366
 
 export const ContentLine = styled.div`
-  color: #535C65;
+  color: ${_ => _.color || '#535C65'};
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: 2px;
   line-height: 1.25;
+  text-align: left;
   text-transform: uppercase;
 `
 
 export const ContentHeading = styled.h2`
-  color: #383E44;
+  color: ${_ => _.color || '#383E44'};
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.25;

@@ -6,6 +6,8 @@ import { AppContent } from './components/style';
 import Benefits from './benefits';
 import Services from './services';
 import Dashboard from './dashboard';
+import HowItWorks from './how-it-works';
+import Testimonials from './testimonials';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Benefits />
         <Services />
         <Dashboard />
+        <HowItWorks />
+        <Testimonials />
       </AppContent>
     </div>
   );
