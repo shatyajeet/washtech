@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6626ca13b7bb8b3cd49756bd81f47832",
+    "revision": "bd9d2c30ce8116de4410da9a74f87166",
     "url": "/washtech/index.html"
   },
   {
-    "revision": "66c45a5974d3f1934e5a",
+    "revision": "77bb7fb2dc7d0d77f4a6",
     "url": "/washtech/static/css/main.0e05233f.chunk.css"
   },
   {
-    "revision": "552dd11ac0cc50374c44",
-    "url": "/washtech/static/js/2.e96196c0.chunk.js"
+    "revision": "19b708b962311c49aa9d",
+    "url": "/washtech/static/js/2.995d1716.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/washtech/static/js/2.e96196c0.chunk.js.LICENSE.txt"
+    "url": "/washtech/static/js/2.995d1716.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66c45a5974d3f1934e5a",
-    "url": "/washtech/static/js/main.b578966a.chunk.js"
+    "revision": "77bb7fb2dc7d0d77f4a6",
+    "url": "/washtech/static/js/main.7ea6b3a2.chunk.js"
   },
   {
     "revision": "fe5a691ba9f2a08ef995",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "091d089402721db37fb9a33d63db3dfb",
     "url": "/washtech/static/media/ae.091d0894.svg"
+  },
+  {
+    "revision": "78af1c3fab4667be79a58e6ce3e32a83",
+    "url": "/washtech/static/media/arrow.78af1c3f.svg"
   },
   {
     "revision": "5e6876475f5017f0d7a290967684e9ad",
@@ -132,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/option-for-leasing_2.2b19f9fb.svg"
   },
   {
-    "revision": "d6a0ec51ff841d3a1aecacce5e489093",
-    "url": "/washtech/static/media/our-story-image.d6a0ec51.jpg"
+    "revision": "ae9ba6a8e2576e5e740fdd0a0bfb7d67",
+    "url": "/washtech/static/media/our-story-image.ae9ba6a8.jpg"
   },
   {
     "revision": "728845f64223eb146d091af2e0baa76f",
