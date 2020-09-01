@@ -25,7 +25,7 @@ const items = [{
   image: towelImage
 }, {
   label: 'Staff Uniforms',
-  description: 'Keep your staff and employees motivated and professionally looking. We delicately handle your staff uniform and neatly washed, pressed, delivered to your business location.',
+  description: 'Keep your staff and employees motivated and looking professional. We delicately handle your staff uniform and neatly washed, pressed, delivered to your business location.',
   icon: staffUniforms,
   iconActive: staffUniformsActive,
   image: staffUniformsImage
@@ -37,7 +37,7 @@ const items = [{
   image: fitnessSportsImage
 }, {
   label: 'Spa and Salon chains',
-  description: 'We understand how important the smell and the quality of the towel and other materials in a spa or salon chain are. We work with many spa and salons to add your signature fragrance so that customers can relate to the brand and enhance customer experience',
+  description: 'We understand how important the smell and the quality of the towel and other materials in a spa or salon chain are. We work with many spa and salons to add your signature fragrance so that customers can relate to the brand and enhance customer experience.',
   icon: spaSalons,
   iconActive: spaSalonsActive,
   image: spaSalonsImage

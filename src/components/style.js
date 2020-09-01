@@ -22,7 +22,7 @@ export const ContentLine = styled.div`
 
 export const ContentHeading = styled.h2`
   color: #383E44;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.25;
   margin: 0;

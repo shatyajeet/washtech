@@ -30,8 +30,6 @@ export const ItemContent = styled.div`
 
 export const SelectedContent = styled.div`
   flex: 1;
-  padding-left: ${_ => _.reverse ? 0 : 48}px;
-  padding-right: ${_ => _.reverse ? 48 : 0}px;
 `
 
 export const SelectedContentImageContainer = styled.div`
@@ -39,11 +37,15 @@ export const SelectedContentImageContainer = styled.div`
 `
 
 export const Item = styled.div`
+  align-items: flex-start;
   background-color: ${_ => _.selected ? '#FFF' : 'transparent'};
   border-bottom: ${_ => _.borderBottom ? '1px solid #E7EDF3' : 0};
   box-shadow: ${_ => _.selected ? '0 10px 20px 0 rgba(55, 70, 95, 0.12)' : 'none'};
   cursor: ${_ => _.selected ? 'default' : 'pointer'};
-  padding: 72px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 40px;
   width: 50%;
   transition: box-shadow 0.35s ease-in-out;
 
@@ -60,14 +62,24 @@ export const ItemIcon = styled.img``
 
 export const ItemLabel = styled.div`
   color: ${_ => _.selected ? '#383E44' : '#535C65'};
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.5;
 `
 
-export const SelectedItemHeading = styled.div`
+export const SelectedItemHeading = styled.h3`
   color: #25292D;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.5;
+  margin: 0;
+`
+
+export const SelectedItemDescription = styled.p`
+  color: #25292D;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5;
+  height: 6.75rem;
+  margin: 0;
 `
