@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eaabdcd7488bd1aa78d82566fb8dd795",
+    "revision": "c47bd36e047032ddaca3c811081c891e",
     "url": "/washtech/index.html"
   },
   {
-    "revision": "6edfda9bc54035f842c2",
+    "revision": "fd7b3fc049b942e0e38a",
     "url": "/washtech/static/css/main.0e05233f.chunk.css"
   },
   {
-    "revision": "3d52993e2015c48673be",
-    "url": "/washtech/static/js/2.d0a4fc6c.chunk.js"
+    "revision": "1034cb2fb6b25dc1a5a9",
+    "url": "/washtech/static/js/2.c9fc27a6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/washtech/static/js/2.d0a4fc6c.chunk.js.LICENSE.txt"
+    "url": "/washtech/static/js/2.c9fc27a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6edfda9bc54035f842c2",
-    "url": "/washtech/static/js/main.d72376ca.chunk.js"
+    "revision": "fd7b3fc049b942e0e38a",
+    "url": "/washtech/static/js/main.a1b830cb.chunk.js"
   },
   {
     "revision": "fe5a691ba9f2a08ef995",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/deliver.8d1efcbb.svg"
   },
   {
-    "revision": "885836f8a268745f68ca0433f1fd2876",
-    "url": "/washtech/static/media/digital-dashboard.885836f8.jpg"
+    "revision": "b5e4b75ff8b2cce600841c332e9d1aeb",
+    "url": "/washtech/static/media/digital-dashboard.b5e4b75f.png"
   },
   {
     "revision": "c405d0f73f58b43915a10e52908d384b",
@@ -64,24 +64,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/fitness-and-sports.1975cbc2.svg"
   },
   {
-    "revision": "d715783551215895048ae98c287d0025",
-    "url": "/washtech/static/media/fitness-and-sports.d7157835.jpg"
+    "revision": "6d8ace63087333a117d7b52b1710076e",
+    "url": "/washtech/static/media/fitness-and-sports.6d8ace63.png"
   },
   {
     "revision": "20b06bdbd7a7ff7b7fcce80c2c1bf1a6",
     "url": "/washtech/static/media/fitness-and-sports_2.20b06bdb.svg"
   },
   {
-    "revision": "7ff02f199f9b5eb6241043e2af567fb1",
-    "url": "/washtech/static/media/free-pickup-deliver.7ff02f19.jpg"
+    "revision": "fdd05b72fc76bae3dd01f7af71143b24",
+    "url": "/washtech/static/media/free-pickup-deliver.fdd05b72.png"
   },
   {
     "revision": "2e8584f3e7af6d863b293e03ba19f7e3",
     "url": "/washtech/static/media/hospitality.2e8584f3.svg"
   },
   {
-    "revision": "7b001a2d89a76ccde40841c34908e3f2",
-    "url": "/washtech/static/media/hospitality.7b001a2d.jpg"
+    "revision": "9e73e9d97928d8f6e6179496c50229a7",
+    "url": "/washtech/static/media/hospitality.9e73e9d9.png"
   },
   {
     "revision": "0e259c82def684cbcf5b2f82312ed1ff",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/image@3x.d37f7662.jpg"
   },
   {
-    "revision": "44fe78dd9c2306dc939999e5999107f3",
-    "url": "/washtech/static/media/iso-certified-plants.44fe78dd.jpg"
+    "revision": "2f8f12cc6c433cf3924a94cefe67461e",
+    "url": "/washtech/static/media/iso-certified-plants.2f8f12cc.png"
   },
   {
     "revision": "de2a7772a146505ca14f426c42fbbbbb",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/navigate-next.de6336c2.svg"
   },
   {
-    "revision": "096aa535e2acbf33991a0a9689372c13",
-    "url": "/washtech/static/media/option-for-leasing.096aa535.jpg"
+    "revision": "67eddff32ea47536b25fb1a22aa8d15b",
+    "url": "/washtech/static/media/option-for-leasing.67eddff3.png"
   },
   {
     "revision": "9e7f803374c6374958a6322a8ea9c099",
@@ -136,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/personalised_2.0d0112de.svg"
   },
   {
-    "revision": "dd987f987ad6f508ee0de31a3229b51d",
-    "url": "/washtech/static/media/personalized-service.dd987f98.jpg"
+    "revision": "c06bbfbca5ff5193883826493ae9fb0d",
+    "url": "/washtech/static/media/personalized-service.c06bbfbc.png"
   },
   {
     "revision": "ce85c3f1a551bff7ce16901c7a684c08",
@@ -152,12 +152,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/pick-up-delivery_2.6c13cb42.svg"
   },
   {
+    "revision": "7ad81f83a5972f6fa99d93e33ddace89",
+    "url": "/washtech/static/media/premium.7ad81f83.svg"
+  },
+  {
+    "revision": "b142b9c2cbbe5d375423f6597fee0079",
+    "url": "/washtech/static/media/safety.b142b9c2.svg"
+  },
+  {
     "revision": "666114d57385be8d6f41b4dfd78d208c",
     "url": "/washtech/static/media/signature-fragrance.666114d5.svg"
   },
   {
-    "revision": "742fb9a1f34e54d1b1bd85098fc93020",
-    "url": "/washtech/static/media/signature-fragrance.742fb9a1.jpg"
+    "revision": "8c38f10e65f26728535c8c6d1f7d7342",
+    "url": "/washtech/static/media/signature-fragrance.8c38f10e.png"
   },
   {
     "revision": "4387506820f4fc5bb50e01c58a98dfd0",
@@ -168,16 +176,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/spa-and-salon-chains.3a72ad3e.svg"
   },
   {
-    "revision": "d82e1f0420cfb68a53add96527474c21",
-    "url": "/washtech/static/media/spa-and-salon-chains.d82e1f04.jpg"
+    "revision": "ef6a6877fdcf8716ac03f6d4b00f9818",
+    "url": "/washtech/static/media/spa-and-salon-chains.ef6a6877.png"
   },
   {
     "revision": "55ebd92f8fbdc62c1c4595894934c654",
     "url": "/washtech/static/media/spa-and-salon-chains_2.55ebd92f.svg"
   },
   {
-    "revision": "db6168862786cf90086c790b15ec14d3",
-    "url": "/washtech/static/media/staff-uniforms.db616886.jpg"
+    "revision": "e1d1c44159ce29487e71c28f75828cde",
+    "url": "/washtech/static/media/staff-uniforms.e1d1c441.png"
   },
   {
     "revision": "b81031c59a8e292759dc70b30ab71ebc",
@@ -188,8 +196,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/towel_2.aa5c8390.svg"
   },
   {
-    "revision": "0e064a5ba7753bc175a20ed447505bd5",
-    "url": "/washtech/static/media/towels-linen.0e064a5b.jpg"
+    "revision": "c40b80aa369976b287efc11fc24235b5",
+    "url": "/washtech/static/media/towels-linen.c40b80aa.png"
+  },
+  {
+    "revision": "e57909ddf3fcc2893e5c974bdb54dc2c",
+    "url": "/washtech/static/media/trust.e57909dd.svg"
   },
   {
     "revision": "0c40e96db715f43db3dfa80ed13b17ac",
