@@ -8,6 +8,8 @@ import Services from './services';
 import Dashboard from './dashboard';
 import HowItWorks from './how-it-works';
 import Testimonials from './testimonials';
+import Statistics from './statistics';
+import Footer from './footer';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Dashboard />
         <HowItWorks />
         <Testimonials />
+        <Statistics />
+        <Footer />
       </AppContent>
     </div>
   );
