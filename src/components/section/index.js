@@ -34,7 +34,7 @@ export default function Section ({ title, heading, description, backgroundColor,
           </SelectedContentImageContainer>
           <SizedBox height={40} />
           <SelectedItemHeading>{activeItem.label}</SelectedItemHeading>
-          <SizedBox height={16} />
+          <SizedBox height={8} />
           <SelectedItemDescription>{activeItem.description}</SelectedItemDescription>
         </SelectedContent>
       </MainContent>
