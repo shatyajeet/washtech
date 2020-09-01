@@ -18,7 +18,7 @@ export const StepsContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
 `
 
 export const StepContainer = styled.div``
@@ -46,6 +46,8 @@ export const StepLabel = styled.div`
   font-weight: 400;
   line-height: 1.25;
   margin: 0;
+  text-align: center;
+  width: 180px;
 `
 
 export const OurStoryContainer = styled.div`

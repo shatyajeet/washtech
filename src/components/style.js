@@ -27,7 +27,7 @@ export const ContentHeading = styled.h2`
   font-weight: 400;
   line-height: 1.25;
   margin: 0;
-  text-align: left;
+  text-align: ${_ => _.textAlign || 'left'};
 `
 
 export const ContentDescription = styled.h3`

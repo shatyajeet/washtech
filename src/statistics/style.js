@@ -18,7 +18,7 @@ export const StatisticsContent = styled.div`
 export const NumbersContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 45%;
 `
 
 export const NumbersItem = styled.div`
@@ -46,5 +46,5 @@ export const CredentialsContainer = styled.div`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 220px;
+  width: 260px;
 `
