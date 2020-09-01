@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c47bd36e047032ddaca3c811081c891e",
+    "revision": "6626ca13b7bb8b3cd49756bd81f47832",
     "url": "/washtech/index.html"
   },
   {
-    "revision": "fd7b3fc049b942e0e38a",
+    "revision": "66c45a5974d3f1934e5a",
     "url": "/washtech/static/css/main.0e05233f.chunk.css"
   },
   {
-    "revision": "1034cb2fb6b25dc1a5a9",
-    "url": "/washtech/static/js/2.c9fc27a6.chunk.js"
+    "revision": "552dd11ac0cc50374c44",
+    "url": "/washtech/static/js/2.e96196c0.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/washtech/static/js/2.c9fc27a6.chunk.js.LICENSE.txt"
+    "url": "/washtech/static/js/2.e96196c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd7b3fc049b942e0e38a",
-    "url": "/washtech/static/js/main.a1b830cb.chunk.js"
+    "revision": "66c45a5974d3f1934e5a",
+    "url": "/washtech/static/js/main.b578966a.chunk.js"
   },
   {
     "revision": "fe5a691ba9f2a08ef995",
@@ -104,8 +104,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/iso_2.c0ee1812.svg"
   },
   {
+    "revision": "dc59bdd0a3ea832efae4f3b269ff97e4",
+    "url": "/washtech/static/media/location.dc59bdd0.svg"
+  },
+  {
     "revision": "ef1af8da0c19e7fcbe9b4ce6fbeeb7b4",
     "url": "/washtech/static/media/logo.ef1af8da.svg"
+  },
+  {
+    "revision": "124511c5ad9cb05a1b80f5e98d5875d9",
+    "url": "/washtech/static/media/mail.124511c5.svg"
   },
   {
     "revision": "de6336c2aba749a28a3af6b9ac6ce8e8",
@@ -122,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b19f9fbbe8ae6f546f3d9a58fa61419",
     "url": "/washtech/static/media/option-for-leasing_2.2b19f9fb.svg"
+  },
+  {
+    "revision": "d6a0ec51ff841d3a1aecacce5e489093",
+    "url": "/washtech/static/media/our-story-image.d6a0ec51.jpg"
   },
   {
     "revision": "728845f64223eb146d091af2e0baa76f",
@@ -142,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce85c3f1a551bff7ce16901c7a684c08",
     "url": "/washtech/static/media/phone-24.ce85c3f1.svg"
+  },
+  {
+    "revision": "bf8a8eb16ec85b3ea1bc4dc035276a85",
+    "url": "/washtech/static/media/phone.bf8a8eb1.svg"
   },
   {
     "revision": "9dd70921048a3008b9804202e7328e2c",
