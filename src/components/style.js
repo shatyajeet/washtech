@@ -13,7 +13,7 @@ export const MAX_CONTENT_WIDTH = 1366
 
 export const ContentLine = styled.div`
   color: ${_ => _.color || '#535C65'};
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 2px;
   line-height: 1.25;
@@ -27,6 +27,7 @@ export const ContentHeading = styled.h2`
   font-weight: 400;
   line-height: 1.25;
   margin: 0;
+  text-align: left;
 `
 
 export const ContentDescription = styled.h3`
@@ -35,4 +36,5 @@ export const ContentDescription = styled.h3`
   font-weight: 300;
   line-height: 1.5;
   margin: 0;
+  text-align: left;
 `

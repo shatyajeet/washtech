@@ -16,6 +16,24 @@ export const FooterContent = styled.div`
 
 export const QuickLinksContainer = styled.div`
   display: flex;
+  justify-content: space-between;
+  width: 60%;
 `
 
 export const QuickLinksColumn = styled.div``
+
+export const LinkHeader = styled.div`
+  color: #25292D;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+`
+
+export const QuickLink = styled.div`
+  align-items: center;
+  color: #25292D;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+`

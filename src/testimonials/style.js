@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { MAX_CONTENT_WIDTH } from '../components/style'
 
 export const TestimonialsContainer = styled.div`
-  padding: 80px 0;
+  padding: 360px 0 80px;
 `
 
 export const TestimonialsContent = styled.div`
