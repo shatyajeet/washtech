@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd9d2c30ce8116de4410da9a74f87166",
+    "revision": "31bc3421e0d13b379d1f675b10dec9dd",
     "url": "/washtech/index.html"
   },
   {
-    "revision": "77bb7fb2dc7d0d77f4a6",
+    "revision": "a771b0bc0201aa89d0cf",
     "url": "/washtech/static/css/main.0e05233f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/js/2.995d1716.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77bb7fb2dc7d0d77f4a6",
-    "url": "/washtech/static/js/main.7ea6b3a2.chunk.js"
+    "revision": "a771b0bc0201aa89d0cf",
+    "url": "/washtech/static/js/main.adf3d44b.chunk.js"
   },
   {
     "revision": "fe5a691ba9f2a08ef995",
@@ -52,12 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/deliver.8d1efcbb.svg"
   },
   {
-    "revision": "b5e4b75ff8b2cce600841c332e9d1aeb",
-    "url": "/washtech/static/media/digital-dashboard.b5e4b75f.png"
-  },
-  {
     "revision": "c405d0f73f58b43915a10e52908d384b",
     "url": "/washtech/static/media/digital-dashboard.c405d0f7.svg"
+  },
+  {
+    "revision": "f7a8fdf05506673b7e7ccc3e9438dc28",
+    "url": "/washtech/static/media/digital-dashboard.f7a8fdf0.png"
   },
   {
     "revision": "1af7f1d8ca49600772036a717e903675",
@@ -68,24 +68,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/fitness-and-sports.1975cbc2.svg"
   },
   {
-    "revision": "6d8ace63087333a117d7b52b1710076e",
-    "url": "/washtech/static/media/fitness-and-sports.6d8ace63.png"
+    "revision": "cd43d80ba69bff595bb5675eeb11e8fd",
+    "url": "/washtech/static/media/fitness-and-sports.cd43d80b.png"
   },
   {
     "revision": "20b06bdbd7a7ff7b7fcce80c2c1bf1a6",
     "url": "/washtech/static/media/fitness-and-sports_2.20b06bdb.svg"
   },
   {
-    "revision": "fdd05b72fc76bae3dd01f7af71143b24",
-    "url": "/washtech/static/media/free-pickup-deliver.fdd05b72.png"
+    "revision": "aca58ed76bbd7c3e5b8e61bb328634af",
+    "url": "/washtech/static/media/free-pickup-deliver.aca58ed7.png"
   },
   {
     "revision": "2e8584f3e7af6d863b293e03ba19f7e3",
     "url": "/washtech/static/media/hospitality.2e8584f3.svg"
   },
   {
-    "revision": "9e73e9d97928d8f6e6179496c50229a7",
-    "url": "/washtech/static/media/hospitality.9e73e9d9.png"
+    "revision": "b22867824f483076618b988487e69105",
+    "url": "/washtech/static/media/hospitality.b2286782.png"
   },
   {
     "revision": "0e259c82def684cbcf5b2f82312ed1ff",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/image@3x.d37f7662.jpg"
   },
   {
-    "revision": "2f8f12cc6c433cf3924a94cefe67461e",
-    "url": "/washtech/static/media/iso-certified-plants.2f8f12cc.png"
+    "revision": "48876ea2bf292d37f6860e347e02998a",
+    "url": "/washtech/static/media/iso-certified-plants.48876ea2.png"
   },
   {
     "revision": "de2a7772a146505ca14f426c42fbbbbb",
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/navigate-next.de6336c2.svg"
   },
   {
-    "revision": "67eddff32ea47536b25fb1a22aa8d15b",
-    "url": "/washtech/static/media/option-for-leasing.67eddff3.png"
+    "revision": "407e2a4f19986b76d751506f015b42cf",
+    "url": "/washtech/static/media/option-for-leasing.407e2a4f.png"
   },
   {
     "revision": "9e7f803374c6374958a6322a8ea9c099",
@@ -152,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/personalised_2.0d0112de.svg"
   },
   {
-    "revision": "c06bbfbca5ff5193883826493ae9fb0d",
-    "url": "/washtech/static/media/personalized-service.c06bbfbc.png"
+    "revision": "5b54e72383bed9e8a9decc77914d8cdf",
+    "url": "/washtech/static/media/personalized-service.5b54e723.png"
   },
   {
     "revision": "ce85c3f1a551bff7ce16901c7a684c08",
@@ -184,8 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/signature-fragrance.666114d5.svg"
   },
   {
-    "revision": "8c38f10e65f26728535c8c6d1f7d7342",
-    "url": "/washtech/static/media/signature-fragrance.8c38f10e.png"
+    "revision": "8dce75a5e459eafecc0977e5057b03d2",
+    "url": "/washtech/static/media/signature-fragrance.8dce75a5.png"
   },
   {
     "revision": "4387506820f4fc5bb50e01c58a98dfd0",
@@ -196,16 +196,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/spa-and-salon-chains.3a72ad3e.svg"
   },
   {
-    "revision": "ef6a6877fdcf8716ac03f6d4b00f9818",
-    "url": "/washtech/static/media/spa-and-salon-chains.ef6a6877.png"
+    "revision": "8dce75a5e459eafecc0977e5057b03d2",
+    "url": "/washtech/static/media/spa-and-salon-chains.8dce75a5.png"
   },
   {
     "revision": "55ebd92f8fbdc62c1c4595894934c654",
     "url": "/washtech/static/media/spa-and-salon-chains_2.55ebd92f.svg"
   },
   {
-    "revision": "e1d1c44159ce29487e71c28f75828cde",
-    "url": "/washtech/static/media/staff-uniforms.e1d1c441.png"
+    "revision": "afb51b6ab13fa67f740ddafc3c93b04c",
+    "url": "/washtech/static/media/staff-uniforms.afb51b6a.png"
   },
   {
     "revision": "b81031c59a8e292759dc70b30ab71ebc",
@@ -216,8 +216,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/washtech/static/media/towel_2.aa5c8390.svg"
   },
   {
-    "revision": "c40b80aa369976b287efc11fc24235b5",
-    "url": "/washtech/static/media/towels-linen.c40b80aa.png"
+    "revision": "407e2a4f19986b76d751506f015b42cf",
+    "url": "/washtech/static/media/towels-linen.407e2a4f.png"
   },
   {
     "revision": "e57909ddf3fcc2893e5c974bdb54dc2c",
