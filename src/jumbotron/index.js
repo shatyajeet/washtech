@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react'
 
 import { JumbotronContainer, JumbotronContent, LeftContent, ContentLine, ContentHeading, ContentDescription, RightContent, JumbotronImage, QuoteContainer, QuoteHeading, QuoteDescription, QuoteForm } from './style'
 import { SizedBox } from '../components/style'
-import jumbotronImage from '../images/jumbotron/image@3x.jpg'
 import Input from '../components/input'
 import MobileNumberInput from '../components/mobile-number-input'
 import Button from '../components/button'
+
+const jumbotronImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_1660/v1599018303/WashTech/image_3x.jpg'
 
 export default function Jumbotron () {
   const [height, setHeight] = useState(0)

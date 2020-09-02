@@ -2,8 +2,9 @@ import React from 'react'
 
 import { DashboardContainer, DashboardContent, MainContent, TextContent, ImageContent, List, ListItem } from './style'
 import { ContentHeading, SizedBox, ContentDescription } from '../components/style'
-import corporateDashboardImage from '../images/corporate-dashboard/dashboard.jpg'
 import checkIcon from '../images/check.svg'
+
+const corporateDashboardImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_1654/v1599018284/WashTech/dashboard_3x.jpg'
 
 export default function Dashboard () {
   return <DashboardContainer>
@@ -26,7 +27,7 @@ export default function Dashboard () {
           </List>
         </TextContent>
         <ImageContent>
-          <img src={corporateDashboardImage} alt='corporate dashboard' />
+          <img src={corporateDashboardImage} width={827} alt='corporate dashboard' />
         </ImageContent>
       </MainContent>
     </DashboardContent>

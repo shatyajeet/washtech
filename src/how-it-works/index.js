@@ -7,7 +7,8 @@ import collectIcon from '../images/collect.svg'
 import cleanIcon from '../images/clean.svg'
 import deliverIcon from '../images/deliver.svg'
 import arrowIcon from '../images/arrow.svg'
-import ourStoryImage from '../images/our-story/our-story-image.jpg'
+
+const ourStoryImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_631/v1599018552/WashTech/our-story-image_3x.png'
 
 export default function HowItWorks () {
   return <HowItWorksContainer>

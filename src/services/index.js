@@ -3,19 +3,20 @@ import Section from '../components/section'
 
 import towel from '../images/towel.svg'
 import towelActive from '../images/towel_2.svg'
-import towelImage from '../images/our-services/towels-linen.png'
 import staffUniforms from '../images/uniform.svg'
 import staffUniformsActive from '../images/uniform_2.svg'
-import staffUniformsImage from '../images/our-services/staff-uniforms.png'
 import fitnessSports from '../images/fitness-and-sports.svg'
 import fitnessSportsActive from '../images/fitness-and-sports_2.svg'
-import fitnessSportsImage from '../images/our-services/fitness-and-sports.png'
 import spaSalons from '../images/spa-and-salon-chains.svg'
 import spaSalonsActive from '../images/spa-and-salon-chains_2.svg'
-import spaSalonsImage from '../images/our-services/spa-and-salon-chains.png'
 import hospitality from '../images/hospitality.svg'
 import hospitalityActive from '../images/hospitality_2.svg'
-import hospitalityImage from '../images/our-services/hospitality.png'
+
+const towelImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018372/WashTech/towels-linen_3x.png'
+const staffUniformsImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018370/WashTech/staff-uniforms_3x.png'
+const fitnessSportsImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018361/WashTech/fitness-and-sports_3x.png'
+const spaSalonsImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018360/WashTech/spa-and-salon-chains_3x.png'
+const hospitalityImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018359/WashTech/hospitality_3x.png'
 
 const items = [{
   label: 'Towels & Linen',
