@@ -7,6 +7,11 @@ import mailIcon from '../images/mail.svg'
 import locationIcon from '../images/location.svg'
 
 export default function Footer () {
+  function navToSection (sectionId) {
+    const section = document.getElementById(sectionId)
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   return <FooterContainer>
     <FooterContent>
       <img src={logo} alt='Washtec' />
@@ -14,11 +19,11 @@ export default function Footer () {
         <QuickLinksColumn>
           <LinkHeader>Quick Links</LinkHeader>
           <SizedBox height={16} />
-          <QuickLink>Benefits</QuickLink>
+          <QuickLink point onClick={() => navToSection('benefits')}>Benefits</QuickLink>
           <SizedBox height={16} />
-          <QuickLink>Services</QuickLink>
+          <QuickLink point onClick={() => navToSection('services')}>Services</QuickLink>
           <SizedBox height={16} />
-          <QuickLink>Our Story</QuickLink>
+          <QuickLink point onClick={() => navToSection('our-story')}>Our Story</QuickLink>
           <SizedBox height={16} />
           <QuickLink>Terms & Policy</QuickLink>
         </QuickLinksColumn>

@@ -36,7 +36,7 @@ export default function Testimonials () {
       <ContentHeading>Happy Customers</ContentHeading>
       <SizedBox height={40} />
       <ReviewComment>{activeReview.review}</ReviewComment>
-      <SizedBox height={40} />
+      <SizedBox height={24} />
       <ReviewDetailsContainer>
         <ReviewerDetails>
           <ReviewerName>{activeReview.name}</ReviewerName>

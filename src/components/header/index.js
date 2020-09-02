@@ -9,6 +9,11 @@ import phoneIcon from '../../images/phone-24.svg'
 import Button from '../button'
 
 export default function Header () {
+  function navToSection (sectionId) {
+    const section = document.getElementById(sectionId)
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   return <HeaderBar>
     <HeaderContent>
       <LeftNav>
@@ -17,11 +22,11 @@ export default function Header () {
         <Chip />
         <SizedBox width={108} />
         <NavBar>
-          <NavBarItem>Benefits</NavBarItem>
+          <NavBarItem onClick={() => navToSection('benefits')}>Benefits</NavBarItem>
           <SizedBox width={48} />
-          <NavBarItem>Services</NavBarItem>
+          <NavBarItem onClick={() => navToSection('services')}>Services</NavBarItem>
           <SizedBox width={48} />
-          <NavBarItem>Our Story</NavBarItem>
+          <NavBarItem onClick={() => navToSection('our-story')}>Our Story</NavBarItem>
         </NavBar>
       </LeftNav>
       <RightNav>

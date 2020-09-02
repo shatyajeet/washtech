@@ -32,6 +32,7 @@ export const NavBar = styled.div`
 `
 
 export const NavBarItem = styled.div`
+  cursor: pointer;
   font-size: 1.125rem;
   line-height: 1.5;
 `
@@ -43,11 +44,15 @@ export const RightNav = styled.div`
 
 export const PhoneNumberContainer = styled.div`
   align-items: center;
-  border: 1px solid #34B4A9;
+  border: 1px solid transparent;
   border-radius: 5px;
   display: flex;
   height: 36px;
   padding: 0 24px;
+  transition: border-color 0.35s ease-in-out;
+  &:hover {
+    border-color: #34B4A9;
+  }
 `
 
 export const PhoneNumberText = styled.div`

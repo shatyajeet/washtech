@@ -48,3 +48,28 @@ export const CredentialsContainer = styled.div`
   justify-content: space-between;
   width: 260px;
 `
+
+export const TooltipContainer = styled.div`
+  position: relative;
+  &:hover {
+    .tooltip {
+      opacity: 1;
+    }
+  }
+`
+
+export const Tooltip = styled.span`
+  background-color: #29252D;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.75rem;
+  left: 0;
+  line-height: 1.5;
+  opacity: 0;
+  padding: 2.5px 5px;
+  position: absolute;
+  text-align: center;
+  top: calc(100% + 5px);
+  width: 100%;
+  transition: opacity 0.15s ease-in-out;
+`

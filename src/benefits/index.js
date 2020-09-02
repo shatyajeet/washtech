@@ -21,11 +21,11 @@ import signatureActive from '../images/signature-fragrance_2.svg'
 import signatureImage from '../images/key-benefits/signature-fragrance.png'
 
 const items = [{
-  label: 'Personalized Service',
-  description: 'Our experts understand your current operations and offer customized laundry service that fits your business just the way you want.',
-  icon: personalised,
-  iconActive: personalisedActive,
-  image: personalisedImage
+  label: 'Signature Fragrance',
+  description: 'We add our signature fragrance to linen, towels and other items. We can also source and prepare a fragrance as per your brand requirements.',
+  icon: signature,
+  iconActive: signatureActive,
+  image: signatureImage
 }, {
   label: 'Option for Leasing',
   description: 'Do you need to invest in towels or linens? We can take care of your needs by offering a simplified lease model that you only pay for the laundry and we take care of sourcing the finest quality towels and garments.',
@@ -51,15 +51,16 @@ const items = [{
   iconActive: isoActive,
   image: isoImage
 }, {
-  label: 'Signature Fragrance',
-  description: 'We add our signature fragrance to linen, towels and other items. We can also source and prepare a fragrance as per your brand requirements.',
-  icon: signature,
-  iconActive: signatureActive,
-  image: signatureImage
+  label: 'Personalized Service',
+  description: 'Our experts understand your current operations and offer customized laundry service that fits your business just the way you want.',
+  icon: personalised,
+  iconActive: personalisedActive,
+  image: personalisedImage
 }]
 
 export default function Benefits () {
   return <Section
+    id='benefits'
     title='Trust Every Wash'
     heading='Key Benefits'
     description='We elevate your business by saving time, money, and managing your inventory. We wash, iron, fold, and deliver clean linen, towels, and uniforms to your doorstep daily'

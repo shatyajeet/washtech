@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { StatisticsContainer, StatisticsContent, NumbersContainer, CredentialsContainer, NumbersItem, Value, Label, LabelText } from './style'
+import { StatisticsContainer, StatisticsContent, NumbersContainer, CredentialsContainer, NumbersItem, Value, Label, LabelText, TooltipContainer, Tooltip } from './style'
 import { SizedBox } from '../components/style'
 import safetyIcon from '../images/safety.svg'
 import premiumIcon from '../images/premium.svg'
@@ -36,9 +36,18 @@ export default function Statistics () {
         </NumbersItem>
       </NumbersContainer>
       <CredentialsContainer>
-        <img src={safetyIcon} alt='Safety' height={60} />
-        <img src={premiumIcon} alt='Premium' height={60} />
-        <img src={trustIcon} alt='Trust' height={60} />
+        <TooltipContainer>
+          <img src={safetyIcon} alt='Safety' height={60} />
+          <Tooltip className='tooltip'>Safety</Tooltip>
+        </TooltipContainer>
+        <TooltipContainer>
+          <img src={premiumIcon} alt='Premium' height={60} />
+          <Tooltip className='tooltip'>Premium</Tooltip>
+        </TooltipContainer>
+        <TooltipContainer>
+          <img src={trustIcon} alt='Trust' height={60} />
+          <Tooltip className='tooltip'>Trust</Tooltip>
+        </TooltipContainer>
       </CredentialsContainer>
     </StatisticsContent>
   </StatisticsContainer>

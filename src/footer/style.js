@@ -32,6 +32,7 @@ export const LinkHeader = styled.div`
 export const QuickLink = styled.div`
   align-items: center;
   color: #25292D;
+  cursor: ${_ => _.point ? 'pointer' : 'default'};
   display: flex;
   font-size: 1.25rem;
   font-weight: 300;

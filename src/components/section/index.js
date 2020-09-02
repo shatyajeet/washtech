@@ -3,10 +3,10 @@ import React, { useState } from 'react'
 import { SectionContainer, SectionContent, HeadContent, MainContent, ItemContent, SelectedContent, Item, ItemLabel, ItemIcon, SelectedItemHeading, SelectedContentImageContainer, SelectedItemDescription } from './style'
 import { ContentLine, ContentHeading, ContentDescription, SizedBox } from '../style'
 
-export default function Section ({ title, heading, description, backgroundColor, containerStyle, reverse, items }) {
+export default function Section ({ id, title, heading, description, backgroundColor, containerStyle, reverse, items }) {
   const [activeItem, setActiveItem] = useState(items[0])
 
-  return <SectionContainer backgroundColor={backgroundColor} style={containerStyle}>
+  return <SectionContainer id={id} backgroundColor={backgroundColor} style={containerStyle}>
     <SectionContent>
       <HeadContent>
         <ContentLine>{title}</ContentLine>

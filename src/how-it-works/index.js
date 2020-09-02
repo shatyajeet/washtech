@@ -22,7 +22,7 @@ export default function HowItWorks () {
         <Step icon={deliverIcon} index={3} />
       </StepsContainer>
       <SizedBox height={24} />
-      <StepsContainer>
+      <StepsContainer id='our-story'>
         <StepLabel>We Collect</StepLabel>
         <StepLabel>We Clean</StepLabel>
         <StepLabel>We Deliver</StepLabel>

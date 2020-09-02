@@ -51,6 +51,7 @@ const items = [{
 
 export default function Services () {
   return <Section
+    id='services'
     title=''
     heading='Our Services'
     description='We offer a premium solution to carter to the following industries:'
