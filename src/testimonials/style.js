@@ -1,9 +1,21 @@
 import styled from 'styled-components'
 
-import { MAX_CONTENT_WIDTH } from '../components/style'
+import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
 
 export const TestimonialsContainer = styled.div`
-  padding: 360px 0 80px;
+  padding: 300px ${CONTENT_PADDING}px 80px;
+  @media screen and (max-width: 1490px) {
+    padding-top: 280px;
+  }
+  @media screen and (max-width: 1366px) {
+    padding-top: 240px;
+  }
+  @media screen and (max-width: 1280px) {
+    padding-top: 220px;
+  }
+  @media screen and (max-width: 1200px) {
+    padding-top: 200px;
+  }
 `
 
 export const TestimonialsContent = styled.div`

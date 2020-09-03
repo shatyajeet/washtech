@@ -10,6 +10,7 @@ export const AppContent = styled.div`
 `
 
 export const MAX_CONTENT_WIDTH = 1366
+export const CONTENT_PADDING = 60
 
 export const ContentLine = styled.div`
   color: ${_ => _.color || '#535C65'};

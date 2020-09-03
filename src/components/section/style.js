@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-import { MAX_CONTENT_WIDTH } from '../style'
+import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../style'
 
 export const SectionContainer = styled.div`
   background-color: ${_ => _.backgroundColor || '#FFF'};
-  padding: 80px 0;
+  padding: 80px ${CONTENT_PADDING}px;
 `
 
 export const SectionContent = styled.div`

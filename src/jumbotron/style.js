@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
-import { MAX_CONTENT_WIDTH } from '../components/style'
+import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
 
 export const JumbotronContainer = styled.div`
   display: flex;
   height: 640px;
   justify-content: center;
+  padding: ${CONTENT_PADDING}px;
   position: relative;
 `
 
@@ -27,9 +28,10 @@ export const RightContent = styled.div`
 `
 
 export const JumbotronImage = styled.img`
-  height: 640px;
   position: absolute;
   right: 0;
+  top: 0;
+  width: 50%;
 `
 
 export const ContentLine = styled.div`

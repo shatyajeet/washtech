@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
-import { MAX_CONTENT_WIDTH } from '../components/style'
+import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
 
 export const HowItWorksContainer = styled.div`
   background-color: #34B4A9;
-  padding: 80px 0 280px;
+  padding: 80px ${CONTENT_PADDING}px 280px;
 `
 export const HowItWorksContent = styled.div`
-  margin: 0 auto;
+  margin: auto;
   max-width: ${MAX_CONTENT_WIDTH}px;
   position: relative;
   text-align: center;
@@ -57,12 +57,33 @@ export const OurStoryContainer = styled.div`
   display: flex;
   position: absolute;
   top: calc(100% + 60px);
+  left: 0;
+  width: 100%;
+  @media screen and (min-width: 1366px) and (max-width: 1490px) {
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
+  @media screen and (max-width: 1366px) {
+    h3 {
+      font-size: 1.125rem;
+    }
+  }
+`
+
+export const OurStoryImageContainer = styled.div`
+  width: 40%;
 `
 
 export const OurStoryImage = styled.img`
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+  width: 100%;
 `
 export const OurStoryContent = styled.div`
-  padding: 80px 64px;
+  padding: 78px 64px;
+  width: 60%;
+  @media screen and (max-width: 1320px) {
+    padding: 45px 64px;
+  }
 `

@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-import { MAX_CONTENT_WIDTH } from '../components/style'
+import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
 
 export const FooterContainer = styled.div`
   background-color: #FAFCFF;
-  padding: 80px 0;
+  padding: 80px ${CONTENT_PADDING}px;
 `
 export const FooterContent = styled.div`
   display: flex;

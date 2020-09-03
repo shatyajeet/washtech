@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { DashboardContainer, DashboardContent, MainContent, TextContent, ImageContent, List, ListItem } from './style'
+import { DashboardContainer, DashboardContent, MainContent, TextContent, ImageContent, List, ListItem, RightImage } from './style'
 import { ContentHeading, SizedBox, ContentDescription } from '../components/style'
 import checkIcon from '../images/check.svg'
 
@@ -27,7 +27,7 @@ export default function Dashboard () {
           </List>
         </TextContent>
         <ImageContent>
-          <img src={corporateDashboardImage} width={827} alt='corporate dashboard' />
+          <RightImage src={corporateDashboardImage} alt='corporate dashboard' />
         </ImageContent>
       </MainContent>
     </DashboardContent>

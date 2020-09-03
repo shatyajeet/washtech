@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
-const CONTENT_WIDTH = 1366
+import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../style'
 
 export const HeaderBar = styled.header`
   background-color: #fff;
   box-shadow: 0 0 8px 0 rgba(55, 70, 95, 0.12);
   display: flex;
   justify-content: center;
-  padding: 16px 0;
+  padding: 16px ${CONTENT_PADDING}px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -18,17 +18,26 @@ export const HeaderContent = styled.div`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  max-width: ${CONTENT_WIDTH}px;
+  max-width: ${MAX_CONTENT_WIDTH}px;
   width: 100%;
 `
 
 export const LeftNav = styled.div`
   align-items: center;
   display: flex;
+  justify-content: space-between;
+  width: 55%;
+`
+
+export const LogoNav = styled.div`
+  align-items: center;
+  display: flex;
 `
 
 export const NavBar = styled.div`
   display: flex;
+  justify-content: space-between;
+  width: 40%;
 `
 
 export const NavBarItem = styled.div`
@@ -40,6 +49,9 @@ export const NavBarItem = styled.div`
 export const RightNav = styled.div`
   align-items: center;
   display: flex;
+  max-width: 400px;
+  justify-content: space-between;
+  width: 37%;
 `
 
 export const PhoneNumberContainer = styled.div`

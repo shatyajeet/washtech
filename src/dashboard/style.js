@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-import { MAX_CONTENT_WIDTH } from '../components/style'
+import { CONTENT_PADDING, MAX_CONTENT_WIDTH } from '../components/style'
 
 export const DashboardContainer = styled.div`
   background-color: #FAFCFF;
-  padding: 80px 0;
+  padding: 80px ${CONTENT_PADDING}px;
 `
 export const DashboardContent = styled.div`
   margin: 0 auto;
@@ -22,6 +22,10 @@ export const TextContent = styled.div`
 
 export const ImageContent = styled.div`
   flex: 1;
+`
+
+export const RightImage = styled.img`
+  width: 100%;
 `
 
 export const List = styled.ul`

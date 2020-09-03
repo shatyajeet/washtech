@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { HowItWorksContainer, HowItWorksContent, StepsContainer, OurStoryContainer, OurStoryImage, OurStoryContent, StepLabel } from './style'
+import { HowItWorksContainer, HowItWorksContent, StepsContainer, OurStoryContainer, OurStoryImage, OurStoryContent, StepLabel, OurStoryImageContainer } from './style'
 import { ContentHeading, SizedBox, ContentLine, ContentDescription } from '../components/style'
 import Step from './step'
 import collectIcon from '../images/collect.svg'
@@ -29,7 +29,9 @@ export default function HowItWorks () {
         <StepLabel>We Deliver</StepLabel>
       </StepsContainer>
       <OurStoryContainer>
-        <OurStoryImage src={ourStoryImage} alt='our story' />
+        <OurStoryImageContainer>
+          <OurStoryImage src={ourStoryImage} alt='our story' />
+        </OurStoryImageContainer>
         <OurStoryContent>
           <ContentLine>Who We Are</ContentLine>
           <SizedBox height={8} />

@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-import { MAX_CONTENT_WIDTH } from '../components/style'
+import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
 
 export const StatisticsContainer = styled.div`
   background-color: #34B4A9;
-  padding: 40px 0;
+  padding: 40px ${CONTENT_PADDING}px;
 `
 
 export const StatisticsContent = styled.div`
