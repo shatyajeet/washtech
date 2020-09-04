@@ -4,7 +4,7 @@ import { DashboardContainer, DashboardContent, MainContent, TextContent, ImageCo
 import { ContentHeading, SizedBox, ContentDescription } from '../components/style'
 import checkIcon from '../images/check.svg'
 
-const corporateDashboardImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_1654/v1599022373/WashTech/dashboard_3x.png'
+const corporateDashboardImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_1654/v1599240778/WashTech/dashboard_3x.png'
 
 export default function Dashboard () {
   return <DashboardContainer>

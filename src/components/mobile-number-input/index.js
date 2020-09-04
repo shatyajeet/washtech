@@ -12,6 +12,6 @@ export default function MobileNumberInput () {
       <CountryCodeText>+971</CountryCodeText>
       <SizedBox width={16} />
     </CountryCodeContainer>
-    <PhoneNumberContainer placeholder='Phone number' type='number' />
+    <PhoneNumberContainer placeholder='Phone number' type='tel' />
   </MobileNumberInputContainer>
 }
