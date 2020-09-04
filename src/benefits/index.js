@@ -18,7 +18,7 @@ const signatureImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scal
 const optionLeasingImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018328/WashTech/option-for-leasing_3x.png'
 const personalisedImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018327/WashTech/personalized-service_3x.png'
 const pickupDeliveryImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018327/WashTech/free-pickup-deliver_3x.png'
-const isoImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018326/WashTech/iso-certified-plants_3x.png'
+const isoImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599190141/WashTech/iso-certified-plants_3x.png'
 const digitalDashboardImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_922/v1599018324/WashTech/digital-dashboard_3x.png'
 
 const items = [{

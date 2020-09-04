@@ -6,7 +6,7 @@ import Input from '../components/input'
 import MobileNumberInput from '../components/mobile-number-input'
 import Button from '../components/button'
 
-const jumbotronImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_1660/v1599018303/WashTech/image_3x.jpg'
+const jumbotronImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_1660/v1599189806/WashTech/image_3x.png'
 
 export default function Jumbotron () {
   const [height, setHeight] = useState(0)
