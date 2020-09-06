@@ -35,6 +35,7 @@ export default function Section ({ id, title, heading, description, backgroundCo
         <SizedBox height={24} />
       </div>
       <MainContent reverse={reverse}>
+        {items.map((item, index) => <link key={index} rel='preload' as='image' href={item.image} />)}
         <ItemContent>
           {items.map((item, index) => <Item
             key={index}

@@ -71,6 +71,10 @@ export const Item = styled.div`
     ${_ => _.selected ? 'none' : 'box-shadow: 0 5px 10px 0 rgba(55, 70, 95, 0.12)'};
   }
 
+  &:first-child {
+    border-left: 1px solid #E7EDF3;
+  }
+
   &:nth-child(odd) {
     border-right: 1px solid #E7EDF3;
   }
