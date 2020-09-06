@@ -71,10 +71,6 @@ export const Item = styled.div`
     ${_ => _.selected ? 'none' : 'box-shadow: 0 5px 10px 0 rgba(55, 70, 95, 0.12)'};
   }
 
-  &:first-child {
-    border-left: 1px solid #E7EDF3;
-  }
-
   &:nth-child(odd) {
     border-right: 1px solid #E7EDF3;
   }
@@ -86,6 +82,10 @@ export const Item = styled.div`
     box-shadow: ${_ => _.selected ? '0 0 8px 0 rgba(55, 70, 95, 0.12)' : 'none'};
     flex: 1;
     padding: 12px 0;
+
+    &:first-child {
+      border-left: 1px solid #E7EDF3;
+    }
   }
 `
 
