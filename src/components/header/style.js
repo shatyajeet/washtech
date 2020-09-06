@@ -6,6 +6,7 @@ export const HeaderBar = styled.header`
   background-color: #fff;
   box-shadow: 0 0 8px 0 rgba(55, 70, 95, 0.12);
   display: flex;
+  height: 80px;
   justify-content: center;
   padding: 16px ${CONTENT_PADDING}px;
   position: fixed;
