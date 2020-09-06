@@ -156,9 +156,11 @@ export const MenuContainer = styled.div`
   z-index: 1;
   div {
     padding: 8px 0;
-    border-bottom: 1px solid rgba(55, 70, 95, 0.24);
     &:nth-child(3) {
       border-bottom: 0;
     }
+  }
+  button {
+    margin-top: 8px;
   }
 `

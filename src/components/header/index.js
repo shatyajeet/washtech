@@ -55,7 +55,6 @@ export default function Header () {
             <NavBarItem onClick={() => navToSection('benefits')}>Benefits</NavBarItem>
             <NavBarItem onClick={() => navToSection('services')}>Services</NavBarItem>
             <NavBarItem onClick={() => navToSection('our-story-mobile')}>Our Story</NavBarItem>
-            <SizedBox height={1} />
             <Button label='Sign In' />
           </MenuContainer>
         </div>
