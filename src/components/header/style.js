@@ -74,7 +74,7 @@ export const RightNav = styled.div`
 export const MobileRightNav = styled.div`
   display: flex;
   @media screen and (min-width: 960px) {
-    display: block;
+    display: none;
   }
 `
 
