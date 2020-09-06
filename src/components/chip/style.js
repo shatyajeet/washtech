@@ -7,6 +7,9 @@ export const ChipContainer = styled.div`
   display: flex;
   height: 24px;
   padding: 0 8px;
+  @media screen and (max-width: 960px) {
+    width: 100px;
+  }
 `
 
 export const ChipText = styled.div`

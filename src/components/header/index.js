@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { HeaderBar, HeaderContent, NavBar, NavBarItem, LeftNav, RightNav, PhoneNumberContainer, PhoneNumberText, LogoNav, MobileRightNav } from './style'
+import { HeaderBar, HeaderContent, NavBar, NavBarItem, LeftNav, RightNav, PhoneNumberContainer, PhoneNumberText, LogoNav, MobileRightNav, MenuOverlay, MenuContainer, MenuIcon, MenuLine } from './style'
 import Chip from '../chip'
 import { SizedBox } from '../style'
 import Button from '../button'
@@ -8,10 +8,12 @@ import logo from '../../logo.svg'
 import whatsAppLogo from '../../images/whats-app/whats-app@2x.jpg'
 import phoneIcon from '../../images/phone-24.svg'
 import callIcon from '../../images/call.svg'
-import menuIcon from '../../images/menu.svg'
 
 export default function Header () {
+  const [menuOpen, setMenuOpen] = useState(false)
+  
   function navToSection (sectionId) {
+    setMenuOpen(false);
     const section = document.getElementById(sectionId)
     section.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
@@ -41,9 +43,22 @@ export default function Header () {
       </RightNav>
       <MobileRightNav>
         <SizedBox width={24} />
-        <img src={callIcon} alt='Call' width={24} />
+        <img src={callIcon} alt='Call' width={32} />
         <SizedBox width={8} />
-        <img src={menuIcon} alt='Call' width={24} />
+        <MenuIcon open={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
+          <MenuLine line1 />
+          <MenuLine line2 />
+          <MenuLine line3 />
+        </MenuIcon>
+        <div className='mob'>
+          <MenuContainer open={menuOpen}>
+            <NavBarItem onClick={() => navToSection('benefits')}>Benefits</NavBarItem>
+            <NavBarItem onClick={() => navToSection('services')}>Services</NavBarItem>
+            <NavBarItem onClick={() => navToSection('our-story-mobile')}>Our Story</NavBarItem>
+            <SizedBox height={1} />
+            <Button label='Sign In' />
+          </MenuContainer>
+        </div>
       </MobileRightNav>
     </HeaderContent>
   </HeaderBar>

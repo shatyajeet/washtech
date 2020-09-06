@@ -45,6 +45,7 @@ export default function HowItWorks () {
           <StepLabel>We Deliver</StepLabel>
         </div>
       </StepsContainer>
+      <div className='mob' id='our-story-mobile' />
       <SizedBox height={24} />
       <div className='desktop'>
         <StepsContainer id='our-story'>
