@@ -15,7 +15,12 @@ export default function Section ({ id, title, heading, description, backgroundCo
         <SizedBox height={8} />
         <ContentDescription>{description}</ContentDescription>
       </HeadContent>
-      <SizedBox height={40} />
+      <div className='desktop'>
+        <SizedBox height={40} />
+      </div>
+      <div className='mob'>
+        <SizedBox height={24} />
+      </div>
       <MainContent reverse={reverse}>
         <ItemContent>
           {items.map((item, index) => <Item
@@ -24,18 +29,27 @@ export default function Section ({ id, title, heading, description, backgroundCo
             borderBottom={index < 4}
             onClick={() => setActiveItem(item)}>
             <ItemIcon src={activeItem.label === item.label ? item.iconActive : item.icon} />
-            <ItemLabel selected={activeItem.label === item.label}>{item.label}</ItemLabel>
+            <div className='desktop'>
+              <ItemLabel selected={activeItem.label === item.label}>{item.label}</ItemLabel>
+            </div>
           </Item>)}
         </ItemContent>
         <SizedBox width={48} />
         <SelectedContent>
+          <div className='mob'>
+            <SelectedItemHeading>{activeItem.label}</SelectedItemHeading>
+            <SizedBox height={8} />
+            <SelectedItemDescription>{activeItem.description}</SelectedItemDescription>
+          </div>
           <SelectedContentImageContainer>
             <img src={activeItem.image} alt={activeItem.label} width={'70%'} />
           </SelectedContentImageContainer>
-          <SizedBox height={40} />
-          <SelectedItemHeading>{activeItem.label}</SelectedItemHeading>
-          <SizedBox height={8} />
-          <SelectedItemDescription>{activeItem.description}</SelectedItemDescription>
+          <div className='desktop'>
+            <SizedBox height={40} />
+            <SelectedItemHeading>{activeItem.label}</SelectedItemHeading>
+            <SizedBox height={8} />
+            <SelectedItemDescription>{activeItem.description}</SelectedItemDescription>
+          </div>
         </SelectedContent>
       </MainContent>
     </SectionContent>

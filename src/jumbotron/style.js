@@ -8,12 +8,19 @@ export const JumbotronContainer = styled.div`
   justify-content: center;
   padding: ${CONTENT_PADDING}px;
   position: relative;
+  @media screen and (max-width: 960px) {
+    height: auto;
+    padding: 24px 16px 230px;
+  }
 `
 
 export const JumbotronContent = styled.div`
   display: flex;
   max-width: ${MAX_CONTENT_WIDTH}px;
   width: 100%;
+  @media screen and (max-width: 960px) {
+    flex-direction: column;
+  }
 `
 
 export const LeftContent = styled.div`
@@ -25,6 +32,11 @@ export const LeftContent = styled.div`
 
 export const RightContent = styled.div`
   flex: 1;
+  @media screen and (max-width: 960px) {
+    img {
+      width: 100%;
+    }
+  }
 `
 
 export const JumbotronImage = styled.img`
@@ -67,6 +79,12 @@ export const QuoteContainer = styled.div`
   left: ${_ => _.width ? `calc(50% - ${_.width / 2}px)` : 0};
   padding: 24px;
   position: absolute;
+  @media screen and (max-width: 960px) {
+    bottom: unset;
+    left: 16px;
+    top: calc(100% - 182px);
+    width: calc(100% - 32px);
+  }
 `
 
 export const QuoteHeading = styled.div`
@@ -74,6 +92,9 @@ export const QuoteHeading = styled.div`
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.5;
+  @media screen and (max-width: 960px) {
+    font-size: 1rem;
+  }
 `
 
 export const QuoteDescription = styled.div`
@@ -81,8 +102,14 @@ export const QuoteDescription = styled.div`
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
+  @media screen and (max-width: 960px) {
+    font-size: 0.875rem;
+  }
 `
 
 export const QuoteForm = styled.div`
   display: flex;
+  @media screen and (max-width: 960px) {
+    display: block;
+  }
 `

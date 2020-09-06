@@ -7,6 +7,7 @@ import collectIcon from '../images/collect.svg'
 import cleanIcon from '../images/clean.svg'
 import deliverIcon from '../images/deliver.svg'
 import arrowIcon from '../images/arrow.svg'
+import arrowDownIcon from '../images/arrow-down.svg'
 
 const ourStoryImage = 'https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_631/v1599018552/WashTech/our-story-image_3x.png'
 
@@ -17,17 +18,41 @@ export default function HowItWorks () {
       <SizedBox height={16} />
       <StepsContainer>
         <Step icon={collectIcon} index={1} />
-        <img src={arrowIcon} alt='next' />
+        <div className='mob'>
+          <SizedBox height={8} />
+          <StepLabel>We Collect</StepLabel>
+          <SizedBox height={16} />
+          <img src={arrowDownIcon} alt='next' />
+          <SizedBox height={16} />
+        </div>
+        <div className='desktop'>
+          <img src={arrowIcon} alt='next' />
+        </div>
         <Step icon={cleanIcon} index={2} />
-        <img src={arrowIcon} alt='next' />
+        <div className='mob'>
+          <SizedBox height={8} />
+          <StepLabel>We Clean</StepLabel>
+          <SizedBox height={16} />
+          <img src={arrowDownIcon} alt='next' />
+          <SizedBox height={16} />
+        </div>
+        <div className='desktop'>
+          <img src={arrowIcon} alt='next' />
+        </div>
         <Step icon={deliverIcon} index={3} />
+        <div className='mob'>
+          <SizedBox height={8} />
+          <StepLabel>We Deliver</StepLabel>
+        </div>
       </StepsContainer>
       <SizedBox height={24} />
-      <StepsContainer id='our-story'>
-        <StepLabel>We Collect</StepLabel>
-        <StepLabel>We Clean</StepLabel>
-        <StepLabel>We Deliver</StepLabel>
-      </StepsContainer>
+      <div className='desktop'>
+        <StepsContainer id='our-story'>
+          <StepLabel>We Collect</StepLabel>
+          <StepLabel>We Clean</StepLabel>
+          <StepLabel>We Deliver</StepLabel>
+        </StepsContainer>
+      </div>
       <OurStoryContainer>
         <OurStoryImageContainer>
           <OurStoryImage src={ourStoryImage} alt='our story' />

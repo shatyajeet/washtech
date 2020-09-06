@@ -6,6 +6,10 @@ export const MobileNumberInputContainer = styled.div`
   display: flex;
   height: 64px;
   padding: 8px 16px;
+  @media screen and (max-width: 960px) {
+    height: 48px;
+    margin-bottom: 24px;
+  }
 `
 
 export const CountryCodeContainer = styled.div`
@@ -20,6 +24,9 @@ export const CountryCodeText = styled.div`
   font-weight: 300;
   letter-spacing: 0.1px;
   line-height: 1.44;
+  @media screen and (max-width: 960px) {
+    font-size: 0.875rem;
+  }
 `
 
 export const PhoneNumberContainer = styled.input`
@@ -32,4 +39,7 @@ export const PhoneNumberContainer = styled.input`
   outline: none;
   padding-left: 16px;
   width: 200px;
+  @media screen and (max-width: 960px) {
+    font-size: 0.875rem;
+  }
 `

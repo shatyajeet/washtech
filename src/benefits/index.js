@@ -66,6 +66,6 @@ export default function Benefits () {
     heading='Key Benefits'
     description='We elevate your business by saving time, money, and managing your inventory. We wash, iron, fold, and deliver clean linen, towels, and uniforms to your doorstep daily'
     backgroundColor='#FAFCFF'
-    containerStyle={{ paddingTop: 180 }}
+    containerStyle={{ paddingTop: 280 }}
     items={items} />
 }

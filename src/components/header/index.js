@@ -1,12 +1,14 @@
 import React from 'react'
 
-import { HeaderBar, HeaderContent, NavBar, NavBarItem, LeftNav, RightNav, PhoneNumberContainer, PhoneNumberText, LogoNav } from './style'
+import { HeaderBar, HeaderContent, NavBar, NavBarItem, LeftNav, RightNav, PhoneNumberContainer, PhoneNumberText, LogoNav, MobileRightNav } from './style'
 import Chip from '../chip'
 import { SizedBox } from '../style'
+import Button from '../button'
 import logo from '../../logo.svg'
 import whatsAppLogo from '../../images/whats-app/whats-app@2x.jpg'
 import phoneIcon from '../../images/phone-24.svg'
-import Button from '../button'
+import callIcon from '../../images/call.svg'
+import menuIcon from '../../images/menu.svg'
 
 export default function Header () {
   function navToSection (sectionId) {
@@ -19,7 +21,7 @@ export default function Header () {
       <LeftNav>
         <LogoNav>
           <img src={logo} alt='Washtech' />
-          <SizedBox width={10} />
+          <SizedBox width={8} />
           <Chip />
         </LogoNav>
         <NavBar>
@@ -37,6 +39,12 @@ export default function Header () {
         </PhoneNumberContainer>
         <Button label='Sign In' />
       </RightNav>
+      <MobileRightNav>
+        <SizedBox width={24} />
+        <img src={callIcon} alt='Call' width={24} />
+        <SizedBox width={8} />
+        <img src={menuIcon} alt='Call' width={24} />
+      </MobileRightNav>
     </HeaderContent>
   </HeaderBar>
 }

@@ -7,6 +7,9 @@ export const SizedBox = styled.div`
 
 export const AppContent = styled.div`
   margin-top: 80px;
+  @media screen and (max-width: 960px) {
+    margin-top: 56px;
+  }
 `
 
 export const MAX_CONTENT_WIDTH = 1366
@@ -20,6 +23,9 @@ export const ContentLine = styled.div`
   line-height: 1.25;
   text-align: left;
   text-transform: uppercase;
+  @media screen and (max-width: 960px) {
+    font-size: 0.825rem;
+  }
 `
 
 export const ContentHeading = styled.h2`
@@ -29,6 +35,9 @@ export const ContentHeading = styled.h2`
   line-height: 1.25;
   margin: 0;
   text-align: ${_ => _.textAlign || 'left'};
+  @media screen and (max-width: 960px) {
+    font-size: 1.5rem;
+  }
 `
 
 export const ContentDescription = styled.h3`
@@ -38,4 +47,7 @@ export const ContentDescription = styled.h3`
   line-height: 1.5;
   margin: 0;
   text-align: left;
+  @media screen and (max-width: 960px) {
+    font-size: 1rem;
+  }
 `

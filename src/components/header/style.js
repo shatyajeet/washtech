@@ -12,6 +12,11 @@ export const HeaderBar = styled.header`
   top: 0;
   width: 100%;
   z-index: 10;
+  @media screen and (max-width: 960px) {
+    align-items: center;
+    padding: 0 16px;
+    height: 56px;
+  }
 `
 
 export const HeaderContent = styled.div`
@@ -27,17 +32,26 @@ export const LeftNav = styled.div`
   display: flex;
   justify-content: space-between;
   width: 55%;
+  @media screen and (max-width: 960px) {
+    width: 66%;
+  }
 `
 
 export const LogoNav = styled.div`
   align-items: center;
   display: flex;
+  img {
+    height: 32px;
+  }
 `
 
 export const NavBar = styled.div`
   display: flex;
   justify-content: space-between;
   width: 40%;
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
 `
 
 export const NavBarItem = styled.div`
@@ -52,6 +66,16 @@ export const RightNav = styled.div`
   max-width: 400px;
   justify-content: space-between;
   width: 37%;
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
+`
+
+export const MobileRightNav = styled.div`
+  display: flex;
+  @media screen and (min-width: 960px) {
+    display: block;
+  }
 `
 
 export const PhoneNumberContainer = styled.div`

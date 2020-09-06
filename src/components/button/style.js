@@ -12,4 +12,9 @@ export const ButtonContainer = styled.button`
   outline: none;
   padding: 0 24px;
   text-transform: uppercase;
+  @media screen and (max-width: 960px) {
+    font-size: 0.875rem;
+    height: 48px;
+    width: 100%;
+  }
 `

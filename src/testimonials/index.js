@@ -34,7 +34,12 @@ export default function Testimonials () {
       <ContentLine>What People Say</ContentLine>
       <SizedBox height={8} />
       <ContentHeading>Happy Customers</ContentHeading>
-      <SizedBox height={40} />
+      <div className='desktop'>
+        <SizedBox height={40} />
+      </div>
+      <div className='mob'>
+        <SizedBox height={24} />
+      </div>
       <ReviewComment>{activeReview.review}</ReviewComment>
       <SizedBox height={24} />
       <ReviewDetailsContainer>

@@ -5,6 +5,9 @@ import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
 export const HowItWorksContainer = styled.div`
   background-color: #34B4A9;
   padding: 80px ${CONTENT_PADDING}px 280px;
+  @media screen and (max-width: 960px) {
+    padding: 48px 16px 150px;
+  }
 `
 export const HowItWorksContent = styled.div`
   margin: auto;
@@ -19,6 +22,9 @@ export const StepsContainer = styled.div`
   justify-content: space-between;
   margin: 0 auto;
   width: 60%;
+  @media screen and (max-width: 960px) {
+    display: block;
+  }
 `
 
 export const StepContainer = styled.div``
@@ -30,6 +36,9 @@ export const StepPathImageContainer = styled.div`
   justify-content: center;
   position: relative;
   width: 180px;
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 `
 
 export const StepBackgroundImage = styled.img`
@@ -48,6 +57,9 @@ export const StepLabel = styled.div`
   margin: 0;
   text-align: center;
   width: 180px;
+  @media screen and (max-width: 960px) {
+    width: 100%
+  }
 `
 
 export const OurStoryContainer = styled.div`
@@ -64,26 +76,41 @@ export const OurStoryContainer = styled.div`
       font-size: 1.25rem;
     }
   }
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1366px) and (min-width: 960px) {
     h3 {
       font-size: 1.125rem;
     }
+  }
+  @media screen and (max-width: 960px) {
+    display: block;
+    top: calc(100% + 16px);
   }
 `
 
 export const OurStoryImageContainer = styled.div`
   width: 40%;
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 `
 
 export const OurStoryImage = styled.img`
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   width: 100%;
+  @media screen and (max-width: 960px) {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+  }
 `
 export const OurStoryContent = styled.div`
   padding: 78px 64px;
   width: 60%;
   @media screen and (max-width: 1320px) {
     padding: 45px 64px;
+  }
+  @media screen and (max-width: 960px) {
+    padding: 24px 16px;
+    width: 100%;
   }
 `

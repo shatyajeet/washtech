@@ -16,6 +16,9 @@ export const TestimonialsContainer = styled.div`
   @media screen and (max-width: 1200px) {
     padding-top: 200px;
   }
+  @media screen and (max-width: 960px) {
+    padding: 580px 16px 48px 24px;
+  }
 `
 
 export const TestimonialsContent = styled.div`
@@ -31,6 +34,10 @@ export const ReviewComment = styled.div`
   font-weight: 300;
   line-height: 1.5;
   width: 80%;
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    font-size: 1rem;
+  }
 `
 
 export const ReviewDetailsContainer = styled.div`
@@ -58,12 +65,18 @@ export const ReviewCountContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 40%;
+  @media screen and (max-width: 960px) {
+    justify-content: flex-end;
+  }
 `
 
 export const ReviewCountItems = styled.div`
   display: flex;
   justify-content: space-between;
   width: ${_ => (_.count * 30) + (_.count - 1) * 10}px;
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
 `
 
 export const ReviewCountItem = styled.div`

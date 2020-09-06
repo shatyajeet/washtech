@@ -10,4 +10,10 @@ export const InputContainer = styled.input`
   outline: none;
   padding-left: 16px;
   width: 270px;
+  @media screen and (max-width: 960px) {
+    font-size: 0.875rem;
+    height: 48px;
+    margin-bottom: 24px;
+    width: 100%;
+  }
 `
