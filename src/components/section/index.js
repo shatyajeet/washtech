@@ -1,10 +1,23 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import { SectionContainer, SectionContent, HeadContent, MainContent, ItemContent, SelectedContent, Item, ItemLabel, ItemIcon, SelectedItemHeading, SelectedContentImageContainer, SelectedItemDescription } from './style'
 import { ContentLine, ContentHeading, ContentDescription, SizedBox } from '../style'
 
 export default function Section ({ id, title, heading, description, backgroundColor, containerStyle, reverse, items }) {
   const [activeItem, setActiveItem] = useState(items[0])
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const currentItemIndex = items.indexOf(activeItem)
+      let nextItemIndex = currentItemIndex + 1
+      if (currentItemIndex === items.length - 1) {
+        nextItemIndex = 0
+      }
+      setActiveItem(items[nextItemIndex])
+    }, 5000)
+
+    return () => clearInterval(interval)
+  })
 
   return <SectionContainer id={id} backgroundColor={backgroundColor} style={containerStyle}>
     <SectionContent>
