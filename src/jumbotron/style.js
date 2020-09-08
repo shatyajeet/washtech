@@ -3,14 +3,18 @@ import styled from 'styled-components'
 import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
 
 export const JumbotronContainer = styled.div`
+  background: url('https://res.cloudinary.com/dhahnivds/image/upload/f_auto,q_auto,h_640/v1599491621/WashTech/banner-image-desktop_2x.png') no-repeat center;
+  background-size: contain;
   display: flex;
-  height: 640px;
+  height: 720px;
   justify-content: center;
-  padding: ${CONTENT_PADDING}px;
+  padding: 200px ${CONTENT_PADDING}px 120px;
   position: relative;
   @media screen and (max-width: 960px) {
+    background: url('https://res.cloudinary.com/dhahnivds/image/upload/c_scale,f_auto,q_auto,w_720/v1599491590/WashTech/banner-image_3x.png') no-repeat center;
+    background-size: cover;
     height: auto;
-    padding: 24px 16px 230px;
+    padding: 100px 16px 42px;
   }
 `
 
@@ -72,28 +76,30 @@ export const ContentDescription = styled.h2`
 `
 
 export const QuoteContainer = styled.div`
-  background-color: #fff;
+  background-color: rgba(56, 62, 68, 0.89);
   border-radius: 8px;
   bottom: ${_ => -_.height / 2}px;
   box-shadow: 0 0 8px 0 rgba(55, 70, 95, 0.12);
-  left: ${_ => _.width ? `calc(50% - ${_.width / 2}px)` : 0};
-  padding: 24px;
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 80px 24px;
+  text-align: center;
+  width: 80%;
   @media screen and (max-width: 960px) {
-    bottom: unset;
-    left: 16px;
-    top: calc(100% - 182px);
-    width: calc(100% - 32px);
+    padding: 24px 16px;
+    width: 100%;
   }
 `
 
 export const QuoteHeading = styled.div`
-  color: #383E44;
-  font-size: 1.5rem;
+  color: #FFF;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
   @media screen and (max-width: 960px) {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 `
 
@@ -109,6 +115,7 @@ export const QuoteDescription = styled.div`
 
 export const QuoteForm = styled.div`
   display: flex;
+  justify-content: center;
   @media screen and (max-width: 960px) {
     display: block;
   }

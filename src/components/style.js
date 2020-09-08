@@ -5,12 +5,7 @@ export const SizedBox = styled.div`
   width: ${_ => _.width ? `${_.width}px` : '100%'};
 `
 
-export const AppContent = styled.div`
-  margin-top: 80px;
-  @media screen and (max-width: 960px) {
-    margin-top: 56px;
-  }
-`
+export const AppContent = styled.div``
 
 export const MAX_CONTENT_WIDTH = 1366
 export const CONTENT_PADDING = 60
@@ -21,7 +16,7 @@ export const ContentLine = styled.div`
   font-weight: 700;
   letter-spacing: 2px;
   line-height: 1.25;
-  text-align: left;
+  text-align: ${_ => _.textAlign || 'left'};
   text-transform: uppercase;
   @media screen and (max-width: 960px) {
     font-size: 0.825rem;

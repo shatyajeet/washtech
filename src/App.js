@@ -10,6 +10,7 @@ import HowItWorks from './how-it-works';
 import Testimonials from './testimonials';
 import Statistics from './statistics';
 import Footer from './footer';
+import ContactlessLaundry from './contactless-laundry';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <AppContent>
         <Jumbotron />
+        <ContactlessLaundry />
         <Benefits />
         <Services />
         <Dashboard />

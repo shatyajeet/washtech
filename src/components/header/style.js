@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../style'
 
 export const HeaderBar = styled.header`
-  background-color: #fff;
-  box-shadow: 0 0 8px 0 rgba(55, 70, 95, 0.12);
+  background-color: rgba(55, 70, 95, 0.12);
+  box-shadow: none;
   display: flex;
   height: 80px;
   justify-content: center;
@@ -13,6 +13,45 @@ export const HeaderBar = styled.header`
   top: 0;
   width: 100%;
   z-index: 10;
+  transition: background-color 0.35s ease-in-out;
+  .logo-black {
+    display: none;
+  }
+  .phone-dark {
+    display: none;
+  }
+  &.scrolled {
+    background-color: #FFF;
+    box-shadow: 0 0 8px 0 rgba(55, 70, 95, 0.12);
+    .logo-light {
+      display: none;
+    }
+    .logo-black {
+      display: block;
+    }
+    .nav-bar-item {
+      color: #29252D;
+    }
+    .phone-light {
+      display: none;
+    }
+    .phone-dark {
+      display: block;
+    }
+    .phone-number-container {
+      &:hover {
+        border-color: #34B4B9;
+      }
+    }
+    .phone-number-text {
+      color: #34B4B9;
+    }
+    .menu-icon {
+      div {
+        background-color: #29252D;
+      }
+    }
+  }
   @media screen and (max-width: 960px) {
     align-items: center;
     padding: 0 16px;
@@ -42,7 +81,12 @@ export const LogoNav = styled.div`
   align-items: center;
   display: flex;
   img {
-    height: 32px;
+    height: 48px;
+  }
+  @media screen and (max-width: 960px) {
+    img {
+      height: 32px;
+    }
   }
 `
 
@@ -56,9 +100,14 @@ export const NavBar = styled.div`
 `
 
 export const NavBarItem = styled.div`
+  color: #FFF;
   cursor: pointer;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
+  font-weight: 400;
   line-height: 1.5;
+  @media screen and (max-width: 960px) {
+    color: #25292D;
+  }
 `
 
 export const RightNav = styled.div`
@@ -89,12 +138,12 @@ export const PhoneNumberContainer = styled.div`
   padding: 0 24px;
   transition: border-color 0.35s ease-in-out;
   &:hover {
-    border-color: #34B4A9;
+    border-color: #FFF;
   }
 `
 
 export const PhoneNumberText = styled.div`
-  color: #34B4A9;
+  color: #FFF;
   font-size: 1.125rem;
   line-height: 1.44;
 `
@@ -126,7 +175,7 @@ export const MenuIcon = styled.div`
   ` : ''}
 `
 export const MenuLine = styled.div`
-  background-color: #535D65;
+  background-color: #FFF;
   border-radius: 1px;
   height: 2px;
   position: absolute;

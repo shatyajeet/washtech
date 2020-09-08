@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const MobileNumberInputContainer = styled.div`
+  background-color: #FFF;
   border-radius: 4px;
   border: solid 1px #E7EDF3;
   display: flex;
@@ -38,7 +39,7 @@ export const PhoneNumberContainer = styled.input`
   line-height: 1.44;
   outline: none;
   padding-left: 16px;
-  width: 200px;
+  width: 150px;
   @media screen and (max-width: 960px) {
     font-size: 0.875rem;
   }
