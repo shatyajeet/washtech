@@ -11,7 +11,7 @@ export default function Statistics () {
     <StatisticsContent>
       <NumbersContainer>
         <NumbersItem>
-          <Value>100,000</Value>
+          <Value>18,000</Value>
           <SizedBox width={8} />
           <Label>
             <LabelText>pieces</LabelText>
@@ -19,7 +19,7 @@ export default function Statistics () {
           </Label>
         </NumbersItem>
         <NumbersItem>
-          <Value>5</Value>
+          <Value>2</Value>
           <SizedBox width={8} />
           <Label>
             <LabelText>washing</LabelText>
@@ -27,7 +27,7 @@ export default function Statistics () {
           </Label>
         </NumbersItem>
         <NumbersItem>
-          <Value>44</Value>
+          <Value>14</Value>
           <SizedBox width={8} />
           <Label>
             <LabelText>delivery</LabelText>
