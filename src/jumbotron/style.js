@@ -4,7 +4,7 @@ import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
 
 export const JumbotronContainer = styled.div`
   background: url('https://res.cloudinary.com/dhahnivds/image/upload/f_auto,q_auto,h_640/v1599491621/WashTech/banner-image-desktop_2x.png') no-repeat center;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   height: 720px;
   justify-content: center;
@@ -116,6 +116,9 @@ export const QuoteDescription = styled.div`
 export const QuoteForm = styled.div`
   display: flex;
   justify-content: center;
+  & > input, .mobile-input {
+    flex: 1;
+  }
   @media screen and (max-width: 960px) {
     display: block;
   }

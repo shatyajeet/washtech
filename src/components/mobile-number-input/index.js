@@ -5,10 +5,8 @@ import countryIcon from '../../images/ae.svg'
 import { SizedBox } from '../style'
 
 export default function MobileNumberInput () {
-  return <MobileNumberInputContainer>
+  return <MobileNumberInputContainer className='mobile-input'>
     <CountryCodeContainer>
-      <img src={countryIcon} alt='country' width={28} />
-      <SizedBox width={8} />
       <CountryCodeText>+971</CountryCodeText>
       <SizedBox width={16} />
     </CountryCodeContainer>

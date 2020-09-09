@@ -11,6 +11,7 @@ export const ContactlessLaundryContainer = styled.div`
 export const ContactlessLaundryContent = styled.div`
   margin: 0 auto;
   max-width: ${MAX_CONTENT_WIDTH}px;
+  text-align: center;
   width: 100%;
   h2, h3 {
     text-align: center;
@@ -18,6 +19,24 @@ export const ContactlessLaundryContent = styled.div`
   @media screen and (max-width: 960px) {
     h2, h3 {
       text-align: left;
+    }
+  }
+`
+
+export const VideoContainer = styled.div`
+  height: 480px;
+  position: relative;
+  img {
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    cursor: pointer;
+  }
+  @media screen and (max-width: 960px) {
+    height: unset;
+    width: 100%;
+    video {
+      width: 100%;
     }
   }
 `
