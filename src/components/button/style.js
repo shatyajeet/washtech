@@ -5,6 +5,7 @@ export const ButtonContainer = styled.button`
   border: 0;
   border-radius: 5px;
   color: #fff;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   height: ${_ => _.height || 36}px;

@@ -26,6 +26,10 @@ export const ContactlessLaundryContent = styled.div`
 export const VideoContainer = styled.div`
   height: 480px;
   position: relative;
+  video {
+    border: 1px solid rgba(55, 70, 95, 0.12);
+    height: 100%;
+  }
   img {
     position: absolute;
     left: calc(50% - 40px);
@@ -36,6 +40,7 @@ export const VideoContainer = styled.div`
     height: unset;
     width: 100%;
     video {
+      height: unset;
       width: 100%;
     }
   }

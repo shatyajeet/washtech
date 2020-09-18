@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { MobileNumberInputContainer, CountryCodeContainer, PhoneNumberContainer, CountryCodeText } from './style'
-import countryIcon from '../../images/ae.svg'
 import { SizedBox } from '../style'
 
 export default function MobileNumberInput () {

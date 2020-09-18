@@ -32,9 +32,15 @@ export default function Footer () {
           <SizedBox height={16} />
           <QuickLink>Give us a call</QuickLink>
           <SizedBox height={16} />
-          <QuickLink><img src={phoneIcon} alt='phone' height={36} /><SizedBox width={8} />+971-555-5564-37</QuickLink>
+          <a href='tel:+971-555-5564-37'>
+            <QuickLink point>
+              <img src={phoneIcon} alt='phone' height={36} /><SizedBox width={8} />+971-555-5564-37
+            </QuickLink>
+          </a>
           <SizedBox height={16} />
-          <QuickLink><img src={mailIcon} alt='mail' height={36} /><SizedBox width={8} />support@washtech.ae</QuickLink>
+          <a href='mailto:support@washtech.ae'>
+            <QuickLink point><img src={mailIcon} alt='mail' height={36} /><SizedBox width={8} />support@washtech.ae</QuickLink>
+          </a>
           <SizedBox height={16} />
           <QuickLink><img src={locationIcon} alt='location' height={36} /><SizedBox width={8} />Dubai</QuickLink>
         </QuickLinksColumn>

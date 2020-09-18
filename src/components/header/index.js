@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
 import { HeaderBar, HeaderContent, NavBar, NavBarItem, LeftNav, RightNav, PhoneNumberContainer, PhoneNumberText, LogoNav, MobileRightNav, MenuContainer, MenuIcon, MenuLine } from './style'
 import Chip from '../chip'
@@ -42,14 +42,20 @@ export default function Header () {
         </NavBar>
       </LeftNav>
       <RightNav>
-        <img src={whatsAppLogo} alt='WhatsApp' width={36} />
+        <a href='https://api.whatsapp.com/send?phone=971555556437' target='_blank' rel='noopener noreferrer'>
+          <img src={whatsAppLogo} alt='WhatsApp' width={36} />
+        </a>
         <PhoneNumberContainer className='phone-number-container'>
           <img className='phone-light' src={phoneWhiteIcon} alt='phone' width={24} />
           <img className='phone-dark' src={phoneIcon} alt='phone' width={24} />
           <SizedBox width={8} />
-          <PhoneNumberText className='phone-number-text'>+971-555-5564-37</PhoneNumberText>
+          <a href='tel:+971-555-5564-37'>
+            <PhoneNumberText className='phone-number-text'>+971-555-5564-37</PhoneNumberText>
+          </a>
         </PhoneNumberContainer>
-        <Button label='Sign In' />
+        <a href='https://portal.washtech.ae' target='_blank' rel='noreferrer noopener'>
+          <Button label='Sign In' />
+        </a>
       </RightNav>
       <MobileRightNav>
         <SizedBox width={24} />
@@ -65,7 +71,9 @@ export default function Header () {
             <NavBarItem onClick={() => navToSection('benefits')}>Benefits</NavBarItem>
             <NavBarItem onClick={() => navToSection('services')}>Services</NavBarItem>
             <NavBarItem onClick={() => navToSection('our-story-mobile')}>Our Story</NavBarItem>
-            <Button label='Sign In' />
+            <a href='https://portal.washtech.ae' target='_blank' rel='noreferrer noopener'>
+              <Button label='Sign In' />
+            </a>
           </MenuContainer>
         </div>
       </MobileRightNav>

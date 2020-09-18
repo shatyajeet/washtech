@@ -145,6 +145,7 @@ export const PhoneNumberContainer = styled.div`
 export const PhoneNumberText = styled.div`
   color: #FFF;
   font-size: 1.125rem;
+  font-weight: 400;
   line-height: 1.44;
 `
 

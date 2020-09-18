@@ -18,6 +18,7 @@ export const HowItWorksContent = styled.div`
 `
 
 export const StepsContainer = styled.div`
+  align-items: center;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;

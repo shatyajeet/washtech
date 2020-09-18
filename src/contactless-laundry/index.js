@@ -45,7 +45,7 @@ export default function ContactlessLaundry () {
       <SizedBox height={24} />
       <VideoContainer>
         <video ref={videoItem}>
-          <source src='https://res.cloudinary.com/dhahnivds/video/upload/f_auto,q_auto/v1599624769/WashTech/contactless-laundry.mp4' />
+          <source src='https://res.cloudinary.com/dhahnivds/video/upload/f_auto/v1600419304/WashTech/Washtech.mp4' />
         </video>
         {!videoPlaying && <img src={playIcon} alt='play' onClick={playVideo} />}
       </VideoContainer>

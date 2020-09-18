@@ -9,6 +9,10 @@ body * {
   box-sizing: border-box;
 }
 
+body a {
+  text-decoration: none;
+}
+
 body div {
   font-weight: 300;
   letter-spacing: 0.5px;
