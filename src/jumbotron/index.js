@@ -5,10 +5,15 @@ import { ContentLine, ContentHeading, SizedBox } from '../components/style'
 import Input from '../components/input'
 import MobileNumberInput from '../components/mobile-number-input'
 import Button from '../components/button'
+import Modal from '../components/modal'
 
 export default function Jumbotron () {
   const [height, setHeight] = useState(0)
   const [width, setWidth] = useState(0)
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [mobile, setMobile] = useState('')
 
   useEffect(() => {
     setTimeout(() => {
@@ -19,6 +24,31 @@ export default function Jumbotron () {
     })
   }, [])
 
+  function handleMobileNumberChange (txt) {
+    setMobile(parseInt(txt))
+  }
+
+  function handleGetQuoteClick () {
+    if (!name || !email || !mobile) {
+      alert('Please fill all the details')
+      return
+    }
+    const quotePayload = {
+      name,
+      email,
+      mobile,
+      countrycode: 971
+    }
+    fetch('https://washtechtemp.tk/auth/addQuote', {
+      method: 'POST',
+      body: JSON.stringify(quotePayload),
+      headers: {
+        'content-type': 'application/json'
+      }
+    }).then(res => res.json())
+      .then(res => console.log(res))
+      .catch(err => console.log(err))
+  }
 
   return <JumbotronContainer>
     <JumbotronContent>
@@ -34,21 +64,29 @@ export default function Jumbotron () {
           <SizedBox height={24} />
         </div>
         <QuoteForm>
-          <Input placeholder='Your name' />
+          <Input placeholder='Your name' defaultValue={name} required onChange={txt => setName(txt)} />
           <div className='desktop'>
             <SizedBox width={16} />
           </div>
-          <Input placeholder='Email' type='email' />
+          <Input placeholder='Email' type='email' defaultValue={email} required onChange={txt => setEmail(txt)} />
           <div className='desktop'>
             <SizedBox width={16} />
           </div>
-          <MobileNumberInput />
+          <MobileNumberInput required onChange={handleMobileNumberChange} />
           <div className='desktop'>
             <SizedBox width={16} />
           </div>
-          <Button label='Get Quote' height={64} styles={{ letterSpacing: 2, fontSize: '0.875rem', fontWeight: 600, padding: '0 14px' }} />
+          <Button
+            label='Get Quote'
+            height={64}
+            styles={{ letterSpacing: 2, fontSize: '0.875rem', fontWeight: 600, padding: '0 14px' }}
+            onClick={handleGetQuoteClick} />
         </QuoteForm>
       </QuoteContainer>
+      <Modal
+        text='Prepare to get the best laundry service for your business. Our team will get back to you shortly'
+        open={isModalOpen}
+        onOKClick={() => setIsModalOpen(false)} />
     </JumbotronContent>
   </JumbotronContainer>
 }

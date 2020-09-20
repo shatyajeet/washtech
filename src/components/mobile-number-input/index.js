@@ -3,12 +3,12 @@ import React from 'react'
 import { MobileNumberInputContainer, CountryCodeContainer, PhoneNumberContainer, CountryCodeText } from './style'
 import { SizedBox } from '../style'
 
-export default function MobileNumberInput () {
+export default function MobileNumberInput ({ required, onChange }) {
   return <MobileNumberInputContainer className='mobile-input'>
     <CountryCodeContainer>
       <CountryCodeText>+971</CountryCodeText>
       <SizedBox width={16} />
     </CountryCodeContainer>
-    <PhoneNumberContainer placeholder='Phone number' type='tel' />
+    <PhoneNumberContainer placeholder='Phone number' type='tel' required={required} onChange={e => onChange(e.target.value.trim())} />
   </MobileNumberInputContainer>
 }

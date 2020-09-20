@@ -32,9 +32,9 @@ export default function Footer () {
           <SizedBox height={16} />
           <QuickLink>Give us a call</QuickLink>
           <SizedBox height={16} />
-          <a href='tel:+971-555-5564-37'>
+          <a href='tel:+971-585-9287-82'>
             <QuickLink point>
-              <img src={phoneIcon} alt='phone' height={36} /><SizedBox width={8} />+971-555-5564-37
+              <img src={phoneIcon} alt='phone' height={36} /><SizedBox width={8} />+971-585-9287-82
             </QuickLink>
           </a>
           <SizedBox height={16} />

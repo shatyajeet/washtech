@@ -42,15 +42,15 @@ export default function Header () {
         </NavBar>
       </LeftNav>
       <RightNav>
-        <a href='https://api.whatsapp.com/send?phone=971555556437' target='_blank' rel='noopener noreferrer'>
+        <a href='https://api.whatsapp.com/send?phone=971585928782' target='_blank' rel='noopener noreferrer'>
           <img src={whatsAppLogo} alt='WhatsApp' width={36} />
         </a>
         <PhoneNumberContainer className='phone-number-container'>
           <img className='phone-light' src={phoneWhiteIcon} alt='phone' width={24} />
           <img className='phone-dark' src={phoneIcon} alt='phone' width={24} />
           <SizedBox width={8} />
-          <a href='tel:+971-555-5564-37'>
-            <PhoneNumberText className='phone-number-text'>+971-555-5564-37</PhoneNumberText>
+          <a href='tel:+971-585-9287-82'>
+            <PhoneNumberText className='phone-number-text'>+971-585-9287-82</PhoneNumberText>
           </a>
         </PhoneNumberContainer>
         <a href='https://portal.washtech.ae' target='_blank' rel='noreferrer noopener'>
