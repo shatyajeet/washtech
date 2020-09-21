@@ -13,8 +13,9 @@ export const ModalOverlay = styled.div`
 
 export const ModalContainer = styled.div`
   position: fixed;
-  max-width: ${MAX_CONTENT_WIDTH}px;
+  max-width: ${MAX_CONTENT_WIDTH / 2}px;
   top: calc(50% - 80px);
+  left: calc(50% - ${MAX_CONTENT_WIDTH / 4}px);
   width: 100%;
   z-index: 11;
 `
@@ -33,8 +34,8 @@ export const ModalBody = styled.div`
 
 export const ModalFooter = styled.div`
   padding: 48px;
-  padding-top: 0;
-  padding-bottom: 24px;
+  padding-top: 24;
+  padding-bottom: 12px;
   background-color: #FFF;
   text-align: right;
   border-radius: 5px;

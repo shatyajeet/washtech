@@ -3,6 +3,7 @@ import React, { useRef, useState, useEffect } from 'react'
 import { ContactlessLaundryContainer, ContactlessLaundryContent, VideoContainer } from './style'
 import { ContentHeading, ContentDescription, SizedBox } from '../components/style'
 import playIcon from '../images/play.svg'
+import pauseIcon from '../images/pause.svg'
 
 export default function ContactlessLaundry () {
   const videoItem = useRef()
@@ -19,6 +20,11 @@ export default function ContactlessLaundry () {
   function playVideo () {
     videoItem.current.play()
     setVideoPlaying(true)
+  }
+
+  function pauseVideo () {
+    videoItem.current.pause()
+    setVideoPlaying(false)
   }
 
   function attachEventListeners () {
@@ -48,6 +54,7 @@ export default function ContactlessLaundry () {
           <source src='https://res.cloudinary.com/dhahnivds/video/upload/f_auto/v1600419304/WashTech/Washtech.mp4' />
         </video>
         {!videoPlaying && <img src={playIcon} alt='play' onClick={playVideo} />}
+        {videoPlaying && <img className='pause-icon' src={pauseIcon} alt='pause' onClick={pauseVideo} />}
       </VideoContainer>
     </ContactlessLaundryContent>
   </ContactlessLaundryContainer>

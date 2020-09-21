@@ -35,6 +35,14 @@ export const VideoContainer = styled.div`
     left: calc(50% - 40px);
     top: calc(50% - 40px);
     cursor: pointer;
+    &.pause-icon {
+      visibility: hidden;
+    }
+  }
+  &:hover {
+    img.pause-icon {
+      visibility: visible;
+    }
   }
   @media screen and (max-width: 960px) {
     height: unset;

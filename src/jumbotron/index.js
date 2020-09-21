@@ -10,6 +10,7 @@ import Modal from '../components/modal'
 export default function Jumbotron () {
   const [height, setHeight] = useState(0)
   const [width, setWidth] = useState(0)
+  const [message, setMessage] = useState('')
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -25,7 +26,7 @@ export default function Jumbotron () {
   }, [])
 
   function handleMobileNumberChange (txt) {
-    setMobile(parseInt(txt))
+    setMobile(txt)
   }
 
   function handleGetQuoteClick () {
@@ -37,7 +38,7 @@ export default function Jumbotron () {
       name,
       email,
       mobile,
-      countrycode: 971
+      countrycode: '971'
     }
     fetch('https://washtechtemp.tk/auth/addQuote', {
       method: 'POST',
@@ -46,8 +47,23 @@ export default function Jumbotron () {
         'content-type': 'application/json'
       }
     }).then(res => res.json())
-      .then(res => console.log(res))
+      .then(res => {
+        if (res.code !== 500) {
+          setMessage('Prepare to get the best laundry service for your business. Our team will get back to you shortly.')
+          setIsModalOpen(true)
+          clearFields()
+        } else {
+          setMessage('Something went wrong. Please try again.')
+          setIsModalOpen(true)
+        }
+      })
       .catch(err => console.log(err))
+  }
+
+  function clearFields () {
+    setName('')
+    setEmail('')
+    setMobile('')
   }
 
   return <JumbotronContainer>
@@ -64,15 +80,15 @@ export default function Jumbotron () {
           <SizedBox height={24} />
         </div>
         <QuoteForm>
-          <Input placeholder='Your name' defaultValue={name} required onChange={txt => setName(txt)} />
+          <Input placeholder='Your name' value={name} required onChange={txt => setName(txt)} />
           <div className='desktop'>
             <SizedBox width={16} />
           </div>
-          <Input placeholder='Email' type='email' defaultValue={email} required onChange={txt => setEmail(txt)} />
+          <Input placeholder='Email' type='email' value={email} required onChange={txt => setEmail(txt)} />
           <div className='desktop'>
             <SizedBox width={16} />
           </div>
-          <MobileNumberInput required onChange={handleMobileNumberChange} />
+          <MobileNumberInput required onChange={handleMobileNumberChange} value={mobile} />
           <div className='desktop'>
             <SizedBox width={16} />
           </div>
@@ -84,7 +100,7 @@ export default function Jumbotron () {
         </QuoteForm>
       </QuoteContainer>
       <Modal
-        text='Prepare to get the best laundry service for your business. Our team will get back to you shortly'
+        text={message}
         open={isModalOpen}
         onOKClick={() => setIsModalOpen(false)} />
     </JumbotronContent>
