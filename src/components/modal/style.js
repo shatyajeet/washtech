@@ -18,6 +18,10 @@ export const ModalContainer = styled.div`
   left: calc(50% - ${MAX_CONTENT_WIDTH / 4}px);
   width: 100%;
   z-index: 11;
+  @media screen and (max-width: 960px) {
+    left: 16px;
+    width: calc(100% - 32px);
+  }
 `
 
 export const ModalBody = styled.div`
@@ -30,6 +34,11 @@ export const ModalBody = styled.div`
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  text-align: center;
+  @media screen and (max-width: 960px) {
+    padding: 16px;
+    padding-bottom: 0;
+  }
 `
 
 export const ModalFooter = styled.div`
@@ -41,4 +50,7 @@ export const ModalFooter = styled.div`
   border-radius: 5px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  @media screen and (max-width: 960px) {
+    padding: 16px;
+  }
 `
