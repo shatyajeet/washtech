@@ -11,6 +11,7 @@ import Testimonials from './testimonials';
 import Statistics from './statistics';
 import Footer from './footer';
 import ContactlessLaundry from './contactless-laundry';
+import WhatsAppFAB from './whatsAppFAB';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Testimonials />
         <Statistics />
         <Footer />
+        <WhatsAppFAB />
       </AppContent>
     </div>
   );
