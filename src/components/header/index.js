@@ -59,7 +59,9 @@ export default function Header () {
       </RightNav>
       <MobileRightNav>
         <SizedBox width={24} />
-        <img src={callIcon} alt='Call' width={32} />
+        <a href='tel:+971-585-9287-82'>
+          <img src={callIcon} alt='Call' width={32} />
+        </a>
         <SizedBox width={8} />
         <MenuIcon className='menu-icon' open={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
           <MenuLine line1 />
