@@ -47,7 +47,7 @@ export default function ContactlessLaundry () {
   }
 
   function handleVideoLoaded () {
-    setDuration(videoItem.current.duration)
+    setDuration(parseInt(videoItem.current.duration))
   }
 
   function handleVideoProgress () {
