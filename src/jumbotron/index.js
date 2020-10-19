@@ -66,7 +66,7 @@ export default function Jumbotron () {
     setMobile('')
   }
 
-  return <JumbotronContainer>
+  return <JumbotronContainer id='jumbotron'>
     <JumbotronContent>
       <QuoteContainer id='quote-box' height={height} width={width}>
         <div>

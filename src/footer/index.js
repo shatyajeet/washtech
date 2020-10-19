@@ -12,9 +12,14 @@ export default function Footer () {
     section.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
+  function handleLogoClick () {
+    const section = document.getElementById('jumbotron')
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   return <FooterContainer>
     <FooterContent>
-      <img src={logo} alt='Washtec' />
+      <img src={logo} alt='Washtec' onClick={handleLogoClick} />
       <QuickLinksContainer>
         <QuickLinksColumn>
           <LinkHeader>Quick Links</LinkHeader>

@@ -26,15 +26,17 @@ export default function Header () {
     setWhiteHeader(window.scrollY >= headerChangeThreshold)
   }
 
-  return <HeaderBar className={whiteHeader && 'scrolled'}>
+  return <HeaderBar id='header' className={whiteHeader && 'scrolled'}>
     <HeaderContent>
       <LeftNav>
-        <LogoNav>
-          <img className='logo-light' src={logoWhite} alt='Washtech' />
-          <img className='logo-black' src={logo} alt='Washtech' />
-          <SizedBox width={8} />
-          <Chip />
-        </LogoNav>
+        <a href='/'>
+          <LogoNav>
+            <img className='logo-light' src={logoWhite} alt='Washtech' />
+            <img className='logo-black' src={logo} alt='Washtech' />
+            <SizedBox width={8} />
+            <Chip />
+          </LogoNav>
+        </a>
         <NavBar>
           <NavBarItem className='nav-bar-item' onClick={() => navToSection('benefits')}>Benefits</NavBarItem>
           <NavBarItem className='nav-bar-item' onClick={() => navToSection('services')}>Services</NavBarItem>

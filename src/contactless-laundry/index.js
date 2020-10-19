@@ -11,13 +11,10 @@ export default function ContactlessLaundry () {
   const [playerActive, setPlayerActive] = useState(false)
   const [duration, setDuration] = useState(0)
   const [progress, setProgress] = useState(0)
-  const [width, setWidth] = useState(0)
 
   useEffect(() => {
     if (videoItem.current) {
       attachEventListeners()
-      const width = document.getElementById('video-container').getBoundingClientRect().width
-      setWidth(width)
     }
 
     return () => removeEventListeners()
