@@ -6,7 +6,7 @@ import { ContentLine, ContentHeading, SizedBox } from '../components/style'
 import navigateNextIcon from '../images/navigate-next.svg'
 
 const reviews = [{
-  name: 'Walid J',
+  name: 'Lynn J',
   jd: 'Gym owner',
   review: 'Our customers started giving us compliments about the quality and the unique fragrance of the towels a week after we decided to move forward with Washtech. We have nothing but praise for the committed Washtech team.'
 }, {

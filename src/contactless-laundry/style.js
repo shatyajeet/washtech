@@ -26,8 +26,9 @@ export const ContactlessLaundryContent = styled.div`
 export const VideoContainer = styled.div`
   height: 480px;
   position: relative;
+  max-width: 853px;
+  margin: auto;
   video {
-    border: 1px solid rgba(55, 70, 95, 0.12);
     height: 100%;
   }
   img {
@@ -40,7 +41,7 @@ export const VideoContainer = styled.div`
     }
   }
   &:hover {
-    img.pause-icon {
+    img.pause-icon, .player-controls.active {
       visibility: visible;
     }
   }
@@ -52,4 +53,32 @@ export const VideoContainer = styled.div`
       width: 100%;
     }
   }
+`
+
+export const VideoPlayerControls = styled.div`
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: rgba(55, 70, 95, 0.12);
+  visibility: hidden;
+  width: 100%;
+  .slider {
+    height: 4px;
+    background-color: #aaa;
+  }
+  .progress {
+    line-height: 1.5;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    bottom: 12px;
+    color: #fff;
+    font-weight: 500;
+  }
+`
+
+export const ProgressBar = styled.div`
+  background-color: yellow;
+  height: 4px;
+  width: ${_ => _.progress}%;
 `
