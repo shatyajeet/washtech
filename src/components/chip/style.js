@@ -9,7 +9,8 @@ export const ChipContainer = styled.div`
   padding: 0 8px;
   margin-bottom: 5px;
   @media screen and (max-width: 960px) {
-    width: 100px;
+    width: 105px;
+    margin-bottom: 0;
   }
 `;
 

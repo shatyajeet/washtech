@@ -70,7 +70,7 @@ export const LeftNav = styled.div`
   justify-content: space-between;
   width: 55%;
   @media screen and (max-width: 960px) {
-    width: 66%;
+    width: 70%;
   }
 `;
 
@@ -82,7 +82,7 @@ export const LogoNav = styled.div`
   }
   @media screen and (max-width: 960px) {
     img {
-      height: 32px;
+      height: 28px;
     }
   }
 `;
