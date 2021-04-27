@@ -1,14 +1,14 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from '../components/style'
+import { MAX_CONTENT_WIDTH, CONTENT_PADDING } from "../components/style";
 
 export const StatisticsContainer = styled.div`
-  background-color: #34B4A9;
+  background-color: #12b07e;
   padding: 40px ${CONTENT_PADDING}px;
   @media screen and (max-width: 960px) {
     padding: 48px 16px;
   }
-`
+`;
 
 export const StatisticsContent = styled.div`
   display: flex;
@@ -19,7 +19,7 @@ export const StatisticsContent = styled.div`
   @media screen and (max-width: 960px) {
     display: block;
   }
-`
+`;
 
 export const NumbersContainer = styled.div`
   display: flex;
@@ -29,7 +29,7 @@ export const NumbersContainer = styled.div`
     display: block;
     width: 100%;
   }
-`
+`;
 
 export const NumbersItem = styled.div`
   display: flex;
@@ -37,24 +37,24 @@ export const NumbersItem = styled.div`
     justify-content: center;
     margin-bottom: 24px;
   }
-`
+`;
 export const Value = styled.div`
-  color: #FFF;
+  color: #fff;
   font-size: 3rem;
   font-weight: 500;
   line-height: 1.5;
-`
+`;
 export const Label = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-`
+`;
 export const LabelText = styled.div`
-  color: #FFF;
+  color: #fff;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
-`
+`;
 
 export const CredentialsContainer = styled.div`
   align-items: center;
@@ -65,7 +65,7 @@ export const CredentialsContainer = styled.div`
     margin: 0 auto;
     width: 240px;
   }
-`
+`;
 
 export const TooltipContainer = styled.div`
   position: relative;
@@ -74,10 +74,10 @@ export const TooltipContainer = styled.div`
       opacity: 1;
     }
   }
-`
+`;
 
 export const Tooltip = styled.span`
-  background-color: #29252D;
+  background-color: #29252d;
   border-radius: 5px;
   color: #fff;
   font-size: 0.75rem;
@@ -90,4 +90,4 @@ export const Tooltip = styled.span`
   top: calc(100% + 5px);
   width: 100%;
   transition: opacity 0.15s ease-in-out;
-`
+`;

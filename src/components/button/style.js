@@ -1,14 +1,17 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const ButtonContainer = styled.button`
-  background-color: #34B4A9;
+  background: ${(_) =>
+    _.bgColor
+      ? _.bgColor
+      : "linear-gradient(to bottom, rgb(60, 193, 127), rgb(18, 176, 126))"};
   border: 0;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
-  height: ${_ => _.height || 36}px;
+  height: ${(_) => _.height || 36}px;
   line-height: 1.5;
   outline: none;
   padding: 0 24px;
@@ -18,4 +21,4 @@ export const ButtonContainer = styled.button`
     height: 48px;
     width: 100%;
   }
-`
+`;

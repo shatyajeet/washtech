@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-import { ButtonContainer } from './style'
+import { ButtonContainer } from "./style";
 
-export default function Button ({ label, height, styles, onClick }) {
-  return <ButtonContainer height={height} style={styles} onClick={onClick}>
-    {label}
-  </ButtonContainer>
+export default function Button({ bgColor, label, height, styles, onClick }) {
+  return (
+    <ButtonContainer
+      bgColor={bgColor}
+      height={height}
+      style={styles}
+      onClick={onClick}
+    >
+      {label}
+    </ButtonContainer>
+  );
 }
